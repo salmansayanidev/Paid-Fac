@@ -34,6 +34,12 @@
   font-weight: 300;
 }
 
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins/Poppins-ExtraLight.ttf");
+  font-weight: 200;
+}
+
 :root {
   --poppins-font-family: "Poppins";
   --theme-color-blue: #3d52a0;
@@ -110,6 +116,14 @@ ul {
   padding-left: 50px;
 }
 
+.text-dark-gray {
+  color: var(--text-color) !important;
+}
+
+.border-dark-gray {
+  border-color: var(--text-color) !important;
+}
+
 .primary-btn {
   font-weight: 600;
   font-size: 1rem;
@@ -119,8 +133,8 @@ ul {
   background: var(--theme-color-blue);
   border-radius: 20px;
   transition: all 0.4s ease-in-out;
-  border: none;
-  display: inline;
+  display: inline-block;
+  border: 1px solid transparent;
 }
 
 .primary-btn:hover {
@@ -146,15 +160,64 @@ ul {
 
 .section-title {
   font-style: normal;
-  font-weight: 275;
+  font-weight: 200;
   line-height: 50px;
   color: var(--text-color);
 }
 
 .lg-para {
   font-style: normal;
-  font-weight: 300;
+  font-weight: 200;
   font-size: 2.4rem;
   line-height: 36px;
   color: var(--text-color);
+}
+
+.sec-sm-title {
+  font-style: normal;
+  font-weight: 200;
+  font-size: 3.6rem;
+  line-height: 50px;
+  color: var(--text-color);
+}
+
+.sm-accor-title {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 2rem;
+  line-height: 35px;
+  color: var(--text-color);
+}
+
+.faqs-section {
+  padding: 140px 0 120px;
+}
+
+.faq-btn {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 2.4rem;
+  line-height: 50px;
+  color: var(--text-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.faq-btn i {
+  font-size: 1.8rem;
+}
+
+.faq-area {
+  border-bottom: 1px solid #CACACA;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.faq-area.active .faq-btn {
+  color: #3D52A0;
 }
