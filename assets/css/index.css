@@ -54,12 +54,11 @@
     color: #3D52A0;
     gap: 10px;
     justify-content: center;
-    transform: scale(1);
-    transition: all 0.3s ease-in-out;
+    transition: all 0.5s;
 }
 
-.get-started-cta:hover {
-    transform: scale(1.1);
+.get-started-cta:hover  {
+    gap: 18px;
 }
 
 .custom-pos-system-bottom {
@@ -114,4 +113,91 @@
     background: #EEF0FC;
     border-radius: 50px 0px 0px 50px;
     margin-top: 30px;
+}
+
+.powerful-pos-tabing-list {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 30px;
+    border-bottom: 1px solid #CACACA;
+    margin-bottom: 30px;
+}
+
+.powerful-pos-tabing-btn {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2.4rem;
+    line-height: 50px;
+    color: var(--text-color);
+    border: none;
+    background-color: transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+.powerful-pos-tabing-btn:hover {
+    color: #3D52A0;
+}
+
+.powerful-pos-tabing-btn.active {
+    font-weight: 400;
+    color: #3D52A0;
+}
+
+.pow-pos-accordion-btn {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2.4rem;
+    line-height: 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--text-color);
+    gap: 10px;
+    border: none;
+    background-color: transparent;
+    width: 100%;
+}
+
+.pow-pos-accordion-btn i {
+    font-size: 1.8rem;
+}
+
+.powerful-pos-accordion-bottom {
+    margin-top: 30px;
+}
+
+.sm-accor-title {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2rem;
+    line-height: 35px;
+    color: var(--text-color);
+}
+
+.para {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.6rem;
+    line-height: normal;
+    color: var(--text-color);
+}
+
+.powerful-pos-accordion-area {
+    margin-bottom: 28px;
+}
+
+.powerful-pos-accordion-area.active .pow-pos-accordion-btn {
+    color: #3D52A0;
+}
+
+.powerful-pos-tabing-content {
+    display: none;
+}
+.powerful-pos-tabing-content.active {
+    display: block;
+}
+
+.paidfac-portable {
+    padding: 90px 0 40px;
 }
