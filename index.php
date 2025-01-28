@@ -58,15 +58,15 @@
 
     <!-- powerful pos start -->
     <section id="powerful-pos-section" class="powerful-pos">
-        <div class="container-fluid p-lg-0">
+        <div class="container-fluid p-xxl-0">
             <div class="row justify-content-end">
-                <div class="col-12 col-lg-11">
+                <div class="col-12 col-lg-12 col-xl-11 col-xxl-11">
                     <h2 class="section-title pl-50px" data-aos="fade-down" data-aos-duration="1500">Powerful POS for all businesses!</h2>
                 </div>
-                <div class="col-12 col-lg-11">
+                <div class="col-12 col-lg-12 col-xl-11 col-xxl-11">
                     <div class="powerful-pos-inner">
                         <div class="row justify-content-between">
-                            <div class="col-12 col-lg-5 col-xl-4" data-aos="fade-right" data-aos-duration="1500">
+                            <div class="col-12 col-lg-4 col-xl-4" data-aos="fade-right" data-aos-duration="1500">
                                 <ul class="powerful-pos-tabing-list">
                                     <li class="powerful-pos-tabing-item">
                                         <button class="powerful-pos-tabing-btn active" type="button"
@@ -245,7 +245,7 @@
 
 
                             </div>
-                            <div class="col-12 col-lg-7" data-aos="fade-left" data-aos-duration="1500">
+                            <div class="col-12 col-lg-8 col-xl-8 col-xxl-7" data-aos="fade-left" data-aos-duration="1500">
                                 <div class="powerful-pos-img">
                                     <img class="img-fluid" src="./assets/images/powerful-pos-img.png" alt="">
                                 </div>
@@ -269,10 +269,10 @@
     <section id="paidfac-portable-section" class="paidfac-portable">
         <div class="container-fluid">
             <div class="row justify-content-end">
-                <div class="col-12 col-lg-11">
+                <div class="col-12 col-lg-12 col-xl-11">
                     <div class="paidfac-product-slider-area">
                         <div class="row">
-                            <div class="col-12 col-lg-6 col-xl-5">
+                            <div class="col-12 col-lg-6 col-xl-5 position-relative z-1" data-aos="fade-down" data-aos-duration="1500">
                                 <div class="slider slider-single">
                                     <div class="paidfac-portable-left-area">
                                         <h2 class="section-title">PaidFac Portable</h2>
@@ -312,7 +312,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-12 col-lg-6 col-xl-7">
+                            <div class="col-12 col-lg-6 col-xl-7" data-aos="fade-up" data-aos-duration="1500">
                                 <div class="product-slider-right position-relative">
                                     <img class="pro-bg-circle" src="./assets/images/product-slider-bg-circle.png" alt="">
                                     <div class="slider slider-nav">
@@ -359,26 +359,4 @@
 
 
 <?php include "./includes/footer.php" ?>
-
 <script src="./assets/js/index.js"></script>
-
-
-<script>
-    $('.slider-single').slick({
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        arrows: false,
-        fade: true,
-        asNavFor: '.slider-nav',
-    });
-    $('.slider-nav').slick({
-        slidesToShow: 2,
-        slidesToScroll: 1,
-        asNavFor: '.slider-single',
-        dots: false,
-        centerMode: false,
-        focusOnSelect: true,
-        nextArrow: '.pro-slider-btn.next',
-        prevArrow: '.pro-slider-btn.pre',
-    });
-</script>

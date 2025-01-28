@@ -4,12 +4,12 @@
                 <div class="col-12">
                     <div class="footer-logo-area">
                         <div class="row align-items-center">
-                            <div class="col-12 col-lg-6" data-aos="fade-right" data-aos-duration="1000">
+                            <div class="col-6 col-md-6" data-aos="fade-right" data-aos-duration="1000">
                                 <a class="footer-logo" href=".">
                                     <img class="img-fluid" src="./assets/images/Logo.svg" alt="Paid Fac Logo">
                                 </a>
                             </div>
-                            <div class="col-12 col-lg-6" data-aos="fade-left" data-aos-duration="1000">
+                            <div class="col-6 col-md-6" data-aos="fade-left" data-aos-duration="1000">
                                 <div class="top-bottom-btn-area">
                                     <button class="top-bottom-btn" type="button">
                                         <i class="fa-solid fa-angle-up"></i>
@@ -21,7 +21,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 col-sm-6 col-md-4 col-lg-2" data-aos="fade-up" data-aos-duration="1000">
+                <div class="col-6 col-sm-4 col-md-4 col-lg-2" data-aos="fade-up" data-aos-duration="1000">
                     <div class="footer-menu">
                         <h4 class="footer-menu-title">Company</h4>
                         <ul class="footer-nav-list">
@@ -43,7 +43,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 col-md-4 col-lg-2" data-aos="fade-up" data-aos-duration="1000">
+                <div class="col-6 col-sm-4 col-md-4 col-lg-2" data-aos="fade-up" data-aos-duration="1000">
                     <div class="footer-menu">
                         <h4 class="footer-menu-title">Products</h4>
                         <ul class="footer-nav-list">
@@ -75,7 +75,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 col-md-4 col-lg-2" data-aos="fade-up" data-aos-duration="1000">
+                <div class="col-6 col-sm-4 col-md-4 col-lg-2" data-aos="fade-up" data-aos-duration="1000">
                     <div class="footer-menu">
                         <h4 class="footer-menu-title">Company</h4>
                         <ul class="footer-nav-list">
@@ -97,7 +97,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 col-md-4 col-lg-2" data-aos="fade-up" data-aos-duration="1000">
+                <div class="col-6 col-sm-4 col-md-4 col-lg-2" data-aos="fade-up" data-aos-duration="1000">
                     <div class="footer-menu">
                         <h4 class="footer-menu-title">Hardware Devices</h4>
                         <ul class="footer-nav-list">
@@ -134,7 +134,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 col-md-4 col-lg-2" data-aos="fade-up" data-aos-duration="1000">
+                <div class="col-6 col-sm-4 col-md-4 col-lg-2" data-aos="fade-up" data-aos-duration="1000">
                     <div class="footer-menu">
                         <h4 class="footer-menu-title">Customers</h4>
                         <ul class="footer-nav-list">
@@ -171,7 +171,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 col-md-4 col-lg-2" data-aos="fade-up" data-aos-duration="1000">
+                <div class="col-6 col-sm-4 col-md-4 col-lg-2" data-aos="fade-up" data-aos-duration="1000">
                     <div class="footer-menu">
                         <h4 class="footer-menu-title">Contact</h4>
                         <ul class="footer-nav-list">
@@ -195,13 +195,15 @@
                 <div class="col-12">
                     <hr class="footer-hr">
                 </div>
-                <div class="col-12 col-sm-6 col-md-6 col-lg-4" data-aos="fade-right" data-aos-duration="1000">
-                    <a class="language-cta" href="#">
-                        <img class="img-fluid" src="./assets/images/country-flag-icon.png" alt="">
-                        <span>United States (English)</span>
-                    </a>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                    <div class="language">
+                        <a class="language-cta" href="#">
+                            <img class="img-fluid" src="./assets/images/country-flag-icon.png" alt="">
+                            <span>United States (English)</span>
+                        </a>
+                    </div>
                 </div>
-                <div class="col-12 col-sm-6 col-md-6 col-lg-4" data-aos="fade-up" data-aos-duration="1000">
+                <div class="col-12 col-lg-4 ordr-1">
                     <p class="copyright-para">©
                         <script
                             type="text/javascript">
@@ -211,7 +213,7 @@
                         PaidFac, LLC
                     </p>
                 </div>
-                <div class="col-12 col-sm-6 col-md-6 col-lg-4" data-aos="fade-left" data-aos-duration="1000">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-4">
                     <ul class="footer-social-list">
                         <li class="social-list-item">
                             <a class="social-link" href="#">
@@ -244,11 +246,11 @@
         </div>
     </footer>
 
-<script src="./assets/js/jquery.min.js"></script>
-<script src="./assets/js/bootstrap.bundle.min.js"></script>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script src="./assets/js/global.js"></script>
-<script src="./assets/js/slick.min.js"></script>
-</body>
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./assets/js/global.js"></script>
+    <script src="./assets/js/slick.min.js"></script>
+    </body>
 
-</html>
+    </html>

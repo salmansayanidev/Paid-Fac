@@ -49,6 +49,7 @@
 html {
   font-size: 10px;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -74,7 +75,7 @@ body::-webkit-scrollbar-thumb:hover {
   background: var(--theme-color-blue);
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1601px) {
   .container {
     max-width: 1445px;
   }
@@ -220,4 +221,235 @@ ul {
 
 .faq-area.active .faq-btn {
   color: #3D52A0;
+}
+
+.build-your-pos {
+  padding: 90px 0;
+  background-image: url('../images/Rectangle\ 8.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.build-your-pos::before {
+  content: "";
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  background: linear-gradient(90deg, #3D52A0 0%, #EC5569 100%);
+  height: 100%;
+  z-index: -11;
+  width: 100%;
+}
+
+.both-cta-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.build-your-pos-text-area .primary-btn.btn-2 {
+  color: var(--text-color);
+  border: 1px solid white;
+}
+
+.banner-cta {
+  margin-top: 30px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+
+.all-restaurants-solution-content .breadcrumb .breadcrumb-item,
+.all-restaurants-solution-content .breadcrumb .breadcrumb-item a,
+.full-ser-restaurants-bnner-content .breadcrumb .breadcrumb-item,
+.full-ser-restaurants-bnner-content .breadcrumb .breadcrumb-item a {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.4rem;
+  line-height: 21px;
+  color: #3D52A0;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+  color: #3D52A0;
+  content: "-";
+}
+
+.full-ser-restaurants-bnner-content .lg-para,
+.full-ser-restaurants-bnner-content .lg-para {
+  font-weight: 300;
+}
+
+.gallery-slider-layer-inner,
+.crafted-enhance-hospitality-box {
+  position: relative;
+  height: 464px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 25px;
+  overflow: hidden;
+  width: 100%;
+  padding: 20px 19px;
+  z-index: 1;
+  display: flex;
+  justify-content: start;
+  align-items: end;
+  max-width: 591px;
+}
+
+.gallery-slider-layer-inner::before,
+.crafted-enhance-hospitality-box::before {
+  content: " ";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  bottom: 0;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.75) 82.68%);
+  border-radius: 25px;
+  z-index: -1;
+}
+
+.crafted-enhance-hospitality-box {
+  max-width: 100%;
+  flex-direction: column;
+  justify-content: end;
+  align-items: start;
+}
+
+.get-started-cta {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  color: #3D52A0;
+  gap: 10px;
+  justify-content: center;
+  transition: all 0.5s;
+}
+
+.get-started-cta:hover {
+  gap: 18px;
+}
+
+.gallery-slider-layer-inner.crafted-enhance-hospitality-box .sec-sm-title {
+  font-weight: 300;
+}
+
+
+@media (max-width: 1600px) {
+  .sec-sm-title {
+    font-size: 3.4rem;
+  }
+
+  .banner-title,
+  .section-title {
+    font-size: 6.2rem;
+  }
+
+  .powerful-pos .section-title.pl-50px {
+    padding-left: 30px;
+  }
+}
+
+@media (max-width: 1500px) {
+  .paidfac-portable-left-inner .sec-sm-title {
+    font-size: 3.2rem;
+  }
+}
+
+@media (max-width: 1440px) {
+
+  .banner-title,
+  .section-title {
+    font-size: 6rem;
+  }
+}
+
+@media (max-width: 1399px) {
+  .build-your-pos {
+    padding: 70px 0;
+  }
+}
+
+@media (max-width: 1280px) {
+
+  .banner-title,
+  .section-title {
+    font-size: 5.8rem;
+    line-height: 70px;
+
+  }
+}
+
+@media (max-width: 1199px) {
+
+  .banner-title,
+  .section-title {
+    font-size: 5.6rem;
+    line-height: 60px;
+  }
+}
+
+@media (max-width: 1024px) {
+
+  .banner-title,
+  .section-title {
+    font-size: 5.3rem;
+    line-height: 60px;
+  }
+}
+
+@media (max-width: 991px) {
+
+  .banner-title,
+  .section-title {
+    font-size: 5rem;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .banner-title,
+  .section-title {
+    font-size: 4.8rem;
+  }
+}
+
+@media (max-width: 575px) {
+
+  .banner-title,
+  .section-title {
+    font-size: 4.5rem;
+  }
+
+  .primary-btn.btn-2 {
+    font-size: 1.1rem;
+    padding: 8px 20px;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .banner-title,
+  .section-title {
+    font-size: 4rem;
+    line-height: 50px;
+  }
+}
+
+@media (max-width: 414px) {
+
+  .banner-title,
+  .section-title {
+    font-size: 3.5rem;
+  }
 }

@@ -1,0 +1,16 @@
+.full-service-restaurants-banner {
+    padding: 100px 0;
+}
+.restaurants-an-edge {
+    background-color: var(--text-color);
+    padding: 100px 0 60px;
+}
+.restaurants-an-edge .section-title {
+    margin-bottom: 50px;
+}
+.restaurants-an-edge-box .lg-para {
+    line-height: normal;
+    margin-top: 20px;
+    padding: 0 20px;
+    color: white;
+}

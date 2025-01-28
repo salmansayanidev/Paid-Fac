@@ -2,61 +2,8 @@
     padding: 105px 0 50px;
 }
 
-.all-restaurants-solution-content .breadcrumb .breadcrumb-item,
-.all-restaurants-solution-content .breadcrumb .breadcrumb-item a {
-    font-style: normal;
-    font-weight: 300;
-    font-size: 1.4rem;
-    line-height: 21px;
-    color: #3D52A0;
-}
-
-.breadcrumb-item+.breadcrumb-item::before {
-    color: #3D52A0;
-    content: "-";
-}
-
 .all-restaurants-solution-content .section-title {
     line-height: normal;
-}
-
-.banner-cta {
-    margin-top: 30px;
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    gap: 10px;
-}
-
-.gallery-slider-layer-inner,
-.crafted-enhance-hospitality-box {
-    position: relative;
-    height: 464px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    border-radius: 25px;
-    overflow: hidden;
-    width: 100%;
-    padding: 20px 19px;
-    z-index: 1;
-    display: flex;
-    justify-content: start;
-    align-items: end;
-    max-width: 591px;
-}
-
-.gallery-slider-layer-inner::before,
-.crafted-enhance-hospitality-box::before {
-    content: " ";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    left: 0px;
-    bottom: 0;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.75) 82.68%);
-    border-radius: 25px;
-    z-index: -1;
 }
 
 .gallery-slider-sb-layer {
@@ -164,13 +111,6 @@
 
 .crafted-enhance-hospitality-top {
     margin-bottom: 70px;
-}
-
-.crafted-enhance-hospitality-box {
-    max-width: 100%;
-    flex-direction: column;
-    justify-content: end;
-    align-items: start;
 }
 
 .services-section {

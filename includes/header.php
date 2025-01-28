@@ -22,14 +22,14 @@
     <header class="header">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-12 col-lg-6">
+                <div class="col-5 col-md-6">
                     <div class="header-left-area">
                         <div class="header-logo">
                             <a href=".">
                                 <img src="./assets/images/Logo.svg" alt="Paid Fac logo">
                             </a>
                         </div>
-                        <div class="header-left-menu">
+                        <div class="header-left-menu d-none d-lg-block">
                             <nav class="navigation">
                                 <ul class="nav-menu-list">
                                     <li class="nav-menu-item">
@@ -44,8 +44,8 @@
                                                 </a>
                                             </li>
                                             <li class="sub-menu-item">
-                                                <a class="nav-menu-link" href="#">
-                                                    Example Two
+                                                <a class="nav-menu-link" href="full-service-restaurants.php">
+                                                    Full Service Restaurants
                                                 </a>
                                             </li>
                                             <li class="sub-menu-item">
@@ -152,9 +152,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-lg-6">
+                <div class="col-7 col-md-6">
                     <div class="header-right-area">
-                        <div class="header-left-menu">
+                        <div class="header-right-menu d-none d-lg-block">
                             <nav class="navigation">
                                 <ul class="nav-menu-list">
                                     <li class="nav-menu-item">
@@ -186,8 +186,170 @@
                                 <span class="cart-count">0</span>
                             </a>
                         </div>
+                        <div class="hamburger">
+                            <button class="hamburger-btn d-flex d-lg-none" type="button">
+                                <i class="fa-solid fa-bars"></i>
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+        <nav class="mobile-navigation">
+            <button class="mobile-nav-close-btn" type="button">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <ul class="mobile-nav-list">
+                <li class="mobile-nav-list-item">
+                    <div class="mobile-nav-list-item-inner">
+                        <a href="#" class="nav-menu-link text-white d-block">
+                            <span>Restaurants</span>
+                        </a>
+                        <button class="mobile-dropdown-btn" type="button">
+                            <i class="fa-solid fa-angle-down angle-icon"></i>
+                        </button>
+                    </div>
+                    <ul class="mobile-sub-menu-list">
+                        <li class="mobile-sub-menu-item">
+                            <a href="all-restaurants-solutions.php" class="nav-menu-link d-block">
+                                All Restaurants Solutions
+                            </a>
+                        </li>
+                        <li class="mobile-sub-menu-item">
+                            <a href="full-service-restaurants.php" class="nav-menu-link d-block">
+                                Full Service Restaurants
+                            </a>
+                        </li>
+                        <li class="mobile-sub-menu-item">
+                            <a href="#" class="nav-menu-link d-block">
+                                Exmaple Three
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="mobile-nav-list-item">
+                    <div class="mobile-nav-list-item-inner">
+                        <a href="#" class="nav-menu-link text-white d-block">
+                            <span>Services</span>
+                        </a>
+                        <button class="mobile-dropdown-btn" type="button">
+                            <i class="fa-solid fa-angle-down angle-icon"></i>
+                        </button>
+                    </div>
+                    <ul class="mobile-sub-menu-list">
+                        <li class="mobile-sub-menu-item">
+                            <a href="#" class="nav-menu-link d-block">
+                                Example One
+                            </a>
+                        </li>
+                        <li class="mobile-sub-menu-item">
+                            <a href="#" class="nav-menu-link d-block">
+                                Exmaple Two
+                            </a>
+                        </li>
+                        <li class="mobile-sub-menu-item">
+                            <a href="#" class="nav-menu-link d-block">
+                                Exmaple Three
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="mobile-nav-list-item">
+                    <div class="mobile-nav-list-item-inner">
+                        <a href="#" class="nav-menu-link text-white d-block">
+                            <span>Retail</span>
+                        </a>
+                        <button class="mobile-dropdown-btn" type="button">
+                            <i class="fa-solid fa-angle-down angle-icon"></i>
+                        </button>
+                    </div>
+                    <ul class="mobile-sub-menu-list">
+                        <li class="mobile-sub-menu-item">
+                            <a href="#" class="nav-menu-link d-block">
+                                Example One
+                            </a>
+                        </li>
+                        <li class="mobile-sub-menu-item">
+                            <a href="#" class="nav-menu-link d-block">
+                                Exmaple Two
+                            </a>
+                        </li>
+                        <li class="mobile-sub-menu-item">
+                            <a href="#" class="nav-menu-link d-block">
+                                Exmaple Three
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="mobile-nav-list-item">
+                    <div class="mobile-nav-list-item-inner">
+                        <a href="#" class="nav-menu-link text-white d-block">
+                            <span>Products</span>
+                        </a>
+                        <button class="mobile-dropdown-btn" type="button">
+                            <i class="fa-solid fa-angle-down angle-icon"></i>
+                        </button>
+                    </div>
+                    <ul class="mobile-sub-menu-list">
+                        <li class="mobile-sub-menu-item">
+                            <a href="#" class="nav-menu-link d-block">
+                                Example One
+                            </a>
+                        </li>
+                        <li class="mobile-sub-menu-item">
+                            <a href="#" class="nav-menu-link d-block">
+                                Exmaple Two
+                            </a>
+                        </li>
+                        <li class="mobile-sub-menu-item">
+                            <a href="#" class="nav-menu-link d-block">
+                                Exmaple Three
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="mobile-nav-list-item">
+                    <div class="mobile-nav-list-item-inner">
+                        <a href="#" class="nav-menu-link text-white d-block">
+                            <span>Resources</span>
+                        </a>
+                        <button class="mobile-dropdown-btn" type="button">
+                            <i class="fa-solid fa-angle-down angle-icon"></i>
+                        </button>
+                    </div>
+                    <ul class="mobile-sub-menu-list">
+                        <li class="mobile-sub-menu-item">
+                            <a href="#" class="nav-menu-link d-block">
+                                Example One
+                            </a>
+                        </li>
+                        <li class="mobile-sub-menu-item">
+                            <a href="#" class="nav-menu-link d-block">
+                                Exmaple Two
+                            </a>
+                        </li>
+                        <li class="mobile-sub-menu-item">
+                            <a href="#" class="nav-menu-link d-block">
+                                Exmaple Three
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="mobile-nav-list-item">
+                    <a href="#" class="nav-menu-link text-white d-block">
+                        <span>Pricing</span>
+                    </a>
+                </li>
+                <li class="mobile-nav-list-item">
+                    <a href="#" class="nav-menu-link text-white d-block">
+                        <span>Help</span>
+                    </a>
+                </li>
+                <li class="mobile-nav-list-item">
+                    <a href="#" class="nav-menu-link text-white d-block">
+                        <span>Log In</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
     </header>
