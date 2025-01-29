@@ -1,0 +1,102 @@
+.pricing-tabs-area {
+    margin-bottom: 50px;
+}
+
+.pricing-tabs-btn {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.4rem;
+    line-height: 140%;
+    color: var(--text-color);
+    padding: 9.5px 25px;
+    border: 1px solid #CACACA;
+    border-radius: 15px;
+    transition: all 0.3s ease-in-out;
+    background-color: transparent;
+}
+
+.pricing-tabs-btn:hover {
+    background-color: var(--theme-color-blue);
+    color: white;
+    border-color: var(--theme-color-blue);
+}
+
+.pricing-tabs-list {
+    margin-top: 10px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}
+
+.pricing-tabs-btn.active {
+    background-color: var(--theme-color-blue);
+    color: white;
+    font-weight: 600;
+    border-color: var(--theme-color-blue);
+}
+
+.pricing-main {
+    display: none;
+}
+
+.pricing-main.active {
+    display: block;
+}
+
+.available-padifac-account {
+    background-color: var(--text-color);
+    padding: 133px 0;
+}
+
+.available-padifac-account-content .section-title {
+    line-height: 75px;
+}
+
+.available-padifac-account-list {
+    margin-top: 10px;
+    padding-left: 40px;
+}
+
+.available-padifac-account-list-item {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 16px;
+}
+
+.available-padifac-para {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 30px;
+    color: white;
+}
+
+.available-padifac-account-list-item img {
+    height: 24px;
+    width: 24px;
+}
+
+.available-padifac-account-list-item {
+    margin-bottom: 20px;
+}
+
+.available-padifac-account-list-item:last-child {
+    margin-bottom: 0;
+}
+
+
+/* product page css */
+
+.pos-equipment-section {
+    padding: 90px 0;
+}
+
+.custom-pos-img {
+    margin: 80px 0 30px;
+}
+
+.flex-hardware-options-section {
+    padding: 90px 0;
+}

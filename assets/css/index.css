@@ -117,14 +117,6 @@
     margin-top: 30px;
 }
 
-.para {
-    font-style: normal;
-    font-weight: 300;
-    font-size: 1.6rem;
-    line-height: normal;
-    color: var(--text-color);
-}
-
 .powerful-pos-accordion-area {
     margin-bottom: 28px;
 }
@@ -143,18 +135,6 @@
 
 .paidfac-portable {
     padding: 90px 0 40px;
-}
-
-.paidfac-portable-left-inner {
-    margin-top: 100px;
-}
-
-.paidfac-portable-left-inner .lg-para {
-    margin: 30px 0;
-}
-
-.cus-pos-in-min-slidr-layer {
-    margin: 0 9px;
 }
 
 .paidfac-portable-left-area {
@@ -257,10 +237,6 @@
         font-size: 2.2rem;
     }
 
-    .para {
-        font-size: 1.5rem;
-    }
-
     .powerful-pos-accordion-area .sm-accor-title {
         font-size: 1.8rem;
     }
@@ -269,9 +245,6 @@
         margin-bottom: 20px;
     }
 
-    .paidfac-portable-left-inner {
-        margin-top: 80px;
-    }
 
     .paidfac-portable-left-area {
         padding-right: 0px;
@@ -296,13 +269,6 @@
 }
 
 @media(max-width: 1500px) {
-    .paidfac-portable-left-inner .lg-para {
-        margin: 20px 0;
-    }
-
-    .paidfac-portable-left-inner {
-        margin-top: 60px;
-    }
 
     .paidfac-product-slider-area {
         padding-left: 20px;
@@ -340,9 +306,6 @@
 }
 
 @media (max-width: 1440px) {
-    .paidfac-portable-left-inner .lg-para {
-        font-size: 2rem;
-    }
 
     .banner-area {
         height: 700px;
@@ -360,10 +323,6 @@
         height: 570px;
         left: -80px;
         top: -60px;
-    }
-
-    .paidfac-portable-left-inner .sec-sm-title {
-        font-size: 3rem;
     }
 
     .home-banner {
@@ -446,14 +405,6 @@
 
     .paidfac-portable-left-area .section-title {
         font-size: 5.5rem;
-    }
-
-    .paidfac-portable-left-inner {
-        margin-top: 40px;
-    }
-
-    .paidfac-portable-left-inner .sec-sm-title {
-        font-size: 2.8rem;
     }
 
     .pro-bg-circle {
@@ -602,18 +553,6 @@
         justify-content: center !important;
     }
 
-    .paidfac-portable-left-inner .lg-para {
-        margin: 10px 0;
-    }
-
-    .paidfac-portable-left-inner {
-        margin-top: 20px;
-    }
-
-    .paidfac-portable-left-inner {
-        margin-top: 20px;
-    }
-
     .slider-nav-layer img {
         margin: 0 auto;
     }
@@ -658,11 +597,6 @@
 
     .paidfac-portable-left-area .section-title {
         font-size: 4rem;
-    }
-
-    .paidfac-portable-left-inner .sec-sm-title {
-        font-size: 2.5rem;
-        line-height: 30px;
     }
 
     .build-your-pos-text-area .banner-title {

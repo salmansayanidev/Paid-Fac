@@ -8,14 +8,14 @@
             <div class="row justify-content-between align-items-center">
                 <div class="col-12 col-lg-6">
                     <div class="full-ser-restaurants-bnner-content">
-                        <nav aria-label="breadcrumb">
+                        <nav aria-label="breadcrumb" class="breadcrumb-area">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="#">Restaurants</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">Full service restaurants</li>
+                                <li class="breadcrumb-item active" aria-current="page">Quick service restaurants</li>
                             </ol>
                         </nav>
-                        <h2 class="banner-title text-dark-gray">Streamline operations with your full-service POS</h2>
-                        <p class="lg-para">Unlock growth with easy restaurant tech that lets your staff impress every diner.</p>
+                        <h2 class="banner-title text-dark-gray">Increase agility with your quick-service restaurant POS</h2>
+                        <p class="lg-para">Create a fast-service experience that keeps customers coming back.</p>
                         <div class="banner-cta">
                             <a href="#" class="primary-btn btn-2">
                                 Get started
@@ -28,7 +28,7 @@
                 </div>
                 <div class="col-12 col-lg-6 col-xl-5">
                     <div class="full-ser-res-bnner-img">
-                        <img class="img-fluid" src="./assets/images/full-service-restaurant-banner-img.png" alt="">
+                        <img class="img-fluid" src="./assets/images/quick-service-restaurant-bnner-img.png" alt="">
                     </div>
                 </div>
             </div>
@@ -41,22 +41,22 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h2 class="section-title text-white">Give your restaurant an edge</h2>
+                    <h2 class="section-title text-white">Streamline your quick-service restaurant</h2>
                 </div>
                 <div class="col-12 col-lg-6">
                     <div class="restaurants-an-edge-box">
-                        <div class="gallery-slider-layer-inner crafted-enhance-hospitality-box" style="background-image: url('./assets/images/restaurant-edge-img-1.png');">
-                            <h4 class="sec-sm-title text-white">Simplify your service</h4>
+                        <div class="gallery-slider-layer-inner crafted-enhance-hospitality-box" style="background-image: url('./assets/images/quick-service-restaurant-img-1.png');">
+                            <h4 class="sec-sm-title text-white">The POS accelerates your workflow</h4>
                         </div>
-                        <p class="lg-para">Delight guests and streamline operations with digital floor plans, easy bill splitting, card pre-authorization, and more.</p>
+                        <p class="lg-para">Your team, enhanced—enabled to deliver fast, consistent service even with large crowds and special orders.</p>
                     </div>
                 </div>
                 <div class="col-12 col-lg-6">
                     <div class="restaurants-an-edge-box">
-                        <div class="gallery-slider-layer-inner crafted-enhance-hospitality-box" style="background-image: url('./assets/images/crafted-enhance-img-2.png');">
-                            <h4 class="sec-sm-title text-white">Boost efficiency in your kitchen</h4>
+                        <div class="gallery-slider-layer-inner crafted-enhance-hospitality-box" style="background-image: url('./assets/images/quick-service-restaurant-img-2.png');">
+                            <h4 class="sec-sm-title text-white">Quick, adaptable, and effective</h4>
                         </div>
-                        <p class="lg-para">PadiFac POS and Kitchen Display System enhance communication and coordination between the kitchen and wait staff.</p>
+                        <p class="lg-para">Speed up service by sending orders directly to the kitchen and preparing your back-of-house for high volume.</p>
                     </div>
                 </div>
             </div>
@@ -70,11 +70,10 @@
             <div class="row">
                 <div class="col-12 col-lg-6">
                     <div class="paidfac-portable-left-area">
-                        <h2 class="section-title">PaidFac Portable</h2>
+                        <h2 class="section-title">PaidFac Duo</h2>
                         <div class="paidfac-portable-left-inner">
-                            <h4 class="sec-sm-title">Sell anywhere, anytime with ease</h4>
-                            <p class="lg-para">Experience the freedom to sell anytime, anywhere, with an all in one
-                                POS system that fits right in the palm of your hand.</p>
+                            <h4 class="sec-sm-title">Keep the flow going with PaidFac Duo</h4>
+                            <p class="lg-para">PaidFac Duo, built for high-volume quick-service restaurants, offers a 14" HD display for you and an 8" touchscreen for customers.</p>
                             <a class="get-started-cta justify-content-start" href="#">
                                 <span>Get started</span>
                                 <i class="fa-solid fa-arrow-right"></i>
@@ -84,7 +83,7 @@
                 </div>
                 <div class="col-12 col-lg-6">
                     <div class="paidfac-portable-img-area">
-                        <img class="img-fluid paidfac-portable-img" src="./assets/images/product-img-1.png" alt="">
+                        <img class="img-fluid paidfac-portable-img" src="./assets/images/product-img-2.png" alt="">
                     </div>
                 </div>
             </div>
@@ -116,12 +115,36 @@
                     <div class="cus-pos-in-min-slider">
                         <div class="cus-pos-in-min-slidr-layer">
                             <div class="cus-pos-in-min-img-area">
-                                <img class="img-fluid" src="./assets/images/paidfac-duo.png" alt="">
+                                <img class="img-fluid" src="./assets/images/paidfac-solo.png" alt="">
                             </div>
                             <div class="cus-pos-in-min-content-area text-center">
-                                <h3 class="cus-pos-title">PaidFac Duo</h3>
+                                <h3 class="cus-pos-title">PaidFac Solo</h3>
                                 <a class="get-started-cta" href="#">
-                                    <span>Get PadiFac Duo</span>
+                                    <span>Get PaidFac Solo</span>
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="cus-pos-in-min-slidr-layer">
+                            <div class="cus-pos-in-min-img-area">
+                                <img class="img-fluid" src="./assets/images/paidfac-compact.png" alt="">
+                            </div>
+                            <div class="cus-pos-in-min-content-area text-center">
+                                <h3 class="cus-pos-title">PaidFac Compact</h3>
+                                <a class="get-started-cta" href="#">
+                                    <span>Get PaidFac Compact</span>
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="cus-pos-in-min-slidr-layer">
+                            <div class="cus-pos-in-min-img-area">
+                                <img class="img-fluid" src="./assets/images/paidfac-kiosk.png" alt="">
+                            </div>
+                            <div class="cus-pos-in-min-content-area text-center">
+                                <h3 class="cus-pos-title">PaidFac Kiosk</h3>
+                                <a class="get-started-cta" href="#">
+                                    <span>Get PaidFac Kiosk</span>
                                     <i class="fa-solid fa-arrow-right"></i>
                                 </a>
                             </div>
@@ -152,36 +175,12 @@
                         </div>
                         <div class="cus-pos-in-min-slidr-layer">
                             <div class="cus-pos-in-min-img-area">
-                                <img class="img-fluid" src="./assets/images/paidfac-duo.png" alt="">
+                                <img class="img-fluid" src="./assets/images/paidfac-kiosk.png" alt="">
                             </div>
                             <div class="cus-pos-in-min-content-area text-center">
-                                <h3 class="cus-pos-title">PaidFac Duo</h3>
+                                <h3 class="cus-pos-title">PaidFac Kiosk</h3>
                                 <a class="get-started-cta" href="#">
-                                    <span>Get PadiFac Duo</span>
-                                    <i class="fa-solid fa-arrow-right"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="cus-pos-in-min-slidr-layer">
-                            <div class="cus-pos-in-min-img-area">
-                                <img class="img-fluid" src="./assets/images/paidfac-solo.png" alt="">
-                            </div>
-                            <div class="cus-pos-in-min-content-area text-center">
-                                <h3 class="cus-pos-title">PaidFac Solo</h3>
-                                <a class="get-started-cta" href="#">
-                                    <span>Get PaidFac Solo</span>
-                                    <i class="fa-solid fa-arrow-right"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="cus-pos-in-min-slidr-layer">
-                            <div class="cus-pos-in-min-img-area">
-                                <img class="img-fluid" src="./assets/images/paidfac-compact.png" alt="">
-                            </div>
-                            <div class="cus-pos-in-min-content-area text-center">
-                                <h3 class="cus-pos-title">PaidFac Compact</h3>
-                                <a class="get-started-cta" href="#">
-                                    <span>Get PaidFac Compact</span>
+                                    <span>Get PaidFac Kiosk</span>
                                     <i class="fa-solid fa-arrow-right"></i>
                                 </a>
                             </div>

@@ -144,7 +144,7 @@
                                 </a>
                             </li>
                             <li class="footer-nav-list-item">
-                                <a href="#" class="footer-link">
+                                <a href="pricing.php" class="footer-link">
                                     Pricing
                                 </a>
                             </li>
@@ -164,7 +164,7 @@
                                 </a>
                             </li>
                             <li class="footer-nav-list-item">
-                                <a href="#" class="footer-link">
+                                <a href="contact-us.php" class="footer-link">
                                     Contact us
                                 </a>
                             </li>

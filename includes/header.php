@@ -13,7 +13,6 @@
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/global.css">
     <link rel="stylesheet" href="./assets/css/layout.css">
-    <link rel="stylesheet" href="./assets/css/index.css">
     <title>Paid Fac</title>
 </head>
 
@@ -49,8 +48,8 @@
                                                 </a>
                                             </li>
                                             <li class="sub-menu-item">
-                                                <a class="nav-menu-link" href="#">
-                                                    Example Three
+                                                <a class="nav-menu-link" href="quick-service-restaurants.php">
+                                                    Quick Service Restaurants
                                                 </a>
                                             </li>
                                         </ul>
@@ -102,7 +101,7 @@
                                         </ul>
                                     </li>
                                     <li class="nav-menu-item">
-                                        <a class="nav-menu-link" href="#">
+                                        <a class="nav-menu-link" href="products.php">
                                             <span>Products</span>
                                             <i class="fa-solid fa-angle-down"></i>
                                         </a>
@@ -158,7 +157,7 @@
                             <nav class="navigation">
                                 <ul class="nav-menu-list">
                                     <li class="nav-menu-item">
-                                        <a class="nav-menu-link" href="#">
+                                        <a class="nav-menu-link" href="pricing.php">
                                             <span>Pricing</span>
                                         </a>
                                     </li>
@@ -176,7 +175,7 @@
                             </nav>
                         </div>
                         <div class="header-right-btn">
-                            <a href="#" class="primary-btn">
+                            <a href="contact-us.php" class="primary-btn">
                                 Contact sales
                             </a>
                         </div>
@@ -221,8 +220,8 @@
                             </a>
                         </li>
                         <li class="mobile-sub-menu-item">
-                            <a href="#" class="nav-menu-link d-block">
-                                Exmaple Three
+                            <a href="quick-service-restaurants.php" class="nav-menu-link d-block">
+                                Quick Service Restaurants
                             </a>
                         </li>
                     </ul>
@@ -283,7 +282,7 @@
                 </li>
                 <li class="mobile-nav-list-item">
                     <div class="mobile-nav-list-item-inner">
-                        <a href="#" class="nav-menu-link text-white d-block">
+                        <a href="products.php" class="nav-menu-link text-white d-block">
                             <span>Products</span>
                         </a>
                         <button class="mobile-dropdown-btn" type="button">
@@ -336,7 +335,7 @@
                     </ul>
                 </li>
                 <li class="mobile-nav-list-item">
-                    <a href="#" class="nav-menu-link text-white d-block">
+                    <a href="pricing.php" class="nav-menu-link text-white d-block">
                         <span>Pricing</span>
                     </a>
                 </li>

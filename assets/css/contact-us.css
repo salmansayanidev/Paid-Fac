@@ -1,0 +1,29 @@
+.contact-us-banner .restaurants-POS-content-box {
+    padding: 64px 40px;
+}
+
+.contact-list .lg-para {
+    font-weight: 300;
+    color: white;
+    line-height: normal;
+}
+.contact-list .lg-para a {
+    color: white;
+}
+.contact-list .lg-para span {
+    font-size: 2rem;
+}
+.contact-list-item {
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+.contact-list-item:last-child {
+    margin-bottom: 0;
+}
+.contact-icon {
+    width: 24px;
+    height: 24px;
+    margin-top: 5px;
+}

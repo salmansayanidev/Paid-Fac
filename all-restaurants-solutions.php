@@ -9,7 +9,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="all-restaurants-solution-content">
-                        <nav aria-label="breadcrumb">
+                        <nav aria-label="breadcrumb" class="breadcrumb-area">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="#">Restaurants</a></li>
                                 <li class="breadcrumb-item active" aria-current="page">All restaurants solutions</li>
@@ -365,6 +365,10 @@
                             <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. At quam optio officiis saepe ut ullam natus expedita. Soluta fuga magnam distinctio iure quaerat accusantium labore quas quasi modi. Cumque, obcaecati.</p>
                         </div>
                     </div>
+                    <button class="show-more-btn faq-show-more">
+                        <span>Show more</span>
+                        <i class="fa-solid fa-plus"></i>
+                    </button>
                 </div>
             </div>
         </div>
