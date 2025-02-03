@@ -1,16 +1,14 @@
-$(function () {
-    $(".gallery-slider").slick({
-        autoplay: true,
-        autoplaySpeed: 2500,
-        dots: false,
-        infinite: true,
-        pauseOnHover: false,
-        slidesToScroll: 1,
-        speed: 1000,
-        variableWidth: true,
-        slidesToShow: 1,
-        arrows: false,
-    });
+$(".gallery-slider").slick({
+    autoplay: true,
+    autoplaySpeed: 2500,
+    dots: false,
+    infinite: true,
+    pauseOnHover: false,
+    slidesToScroll: 1,
+    speed: 1000,
+    variableWidth: true,
+    slidesToShow: 1,
+    arrows: false,
 });
 
 

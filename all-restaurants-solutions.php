@@ -8,7 +8,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="all-restaurants-solution-content">
+                    <div class="all-restaurants-solution-content" data-aos="fade-down" data-aos-duration="1500">
                         <nav aria-label="breadcrumb" class="breadcrumb-area">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="#">Restaurants</a></li>
@@ -37,18 +37,18 @@
         <div class="container-fluid p-0">
             <div class="row">
                 <div class="col-12">
-                    <div class="gallery-slider">
-                        <div class="gallery-slider-layer" style="max-width: 341px;">
+                    <div class="gallery-slider" data-aos="zoom-in-up" data-aos-duration="1500">
+                        <div class="gallery-slider-layer">
                             <div class="gallery-slider-layer-inner" style="background-image: url('./assets/images/gallery-slider-img-1.png');">
                                 <h4 class="sm-accor-title text-white">Portable POS for serving more tables or speeding up lines.</h4>
                             </div>
                         </div>
-                        <div class="gallery-slider-layer" style="max-width: 591px;">
+                        <div class="gallery-slider-layer">
                             <div class="gallery-slider-layer-inner" style="background-image: url('./assets/images/gallery-slider-img-2.png');">
                                 <h4 class="sm-accor-title text-white">A robust restaurant POS system with integrated payment processing.</h4>
                             </div>
                         </div>
-                        <div class="gallery-slider-layer" style="max-width: 341px;">
+                        <div class="gallery-slider-layer">
                             <div class="gallery-slider-sb-layer">
                                 <div class="gallery-slider-layer-inner" style="background-image: url('./assets/images/gallery-slider-img-3.png');">
                                     <h4 class="sm-accor-title text-white">Effortless Scanning, Seamless Sales.</h4>
@@ -58,7 +58,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="gallery-slider-layer" style="max-width: 591px;">
+                        <div class="gallery-slider-layer">
                             <div class="gallery-slider-layer-inner" style="background-image: url('./assets/images/gallery-slider-img-5.png');">
                                 <h4 class="sm-accor-title text-white">A kitchen display system to manage orders seamlessly from any location.</h4>
                             </div>
@@ -71,14 +71,14 @@
     <!-- gallery slider section end -->
 
     <!-- restaurants POS section start -->
-    <section class="restaurants-POS">
+    <section class="restaurants-POS" >
         <div class="container">
             <div class="row">
-                <div class="col-12">
-                    <h2 class="section-title mb-30px text-center">What is a PadiFac restaurant POS?</h2>
+                <div class="col-12" data-aos="fade-right" data-aos-duration="1000">
+                    <h2 class="section-title mb-30px text-center" >What is a PadiFac restaurant POS?</h2>
                 </div>
                 <div class="col-12">
-                    <div class="restaurants-pos-main">
+                    <div class="restaurants-pos-main" data-aos="zoom-in" data-aos-duration="1500">
                         <div class="row justify-content-end">
                             <div class="col-12 col-lg-5">
                                 <div class="restaurants-POS-content-box">
@@ -107,7 +107,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="create-custom-pos-in-minutes-top text-center">
+                    <div class="create-custom-pos-in-minutes-top text-center" data-aos="zoom-in-down" data-aos-duration="1500">
                         <h2 class="section-title mb-30px">Create your custom POS system in minutes</h2>
                         <p class="lg-para">by selecting your plan, devices, and accessories.</p>
                     </div>
@@ -123,7 +123,7 @@
                     </div>
                 </div>
                 <div class="col-12">
-                    <div class="cus-pos-in-min-slider">
+                    <div class="cus-pos-in-min-slider" data-aos="zoom-out-up" data-aos-duration="1500">
                         <div class="cus-pos-in-min-slidr-layer">
                             <div class="cus-pos-in-min-img-area">
                                 <img class="img-fluid" src="./assets/images/paidfac-portable.png" alt="">
@@ -208,13 +208,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="crafted-enhance-hospitality-top text-center">
+                    <div class="crafted-enhance-hospitality-top text-center" data-aos="zoom-in" data-aos-duration="1500">
                         <h2 class="section-title mb-30px">Crafted to enhance your hospitality</h2>
                         <p class="lg-para">See how PadiFac empowers every restaurant concept</p>
                     </div>
                 </div>
                 <div class="col-12 col-lg-6">
-                    <div class="gallery-slider-layer-inner crafted-enhance-hospitality-box" style="background-image: url('./assets/images/crafted-enhance-img-1.png');">
+                    <div class="gallery-slider-layer-inner crafted-enhance-hospitality-box" data-aos="fade-right" data-aos-duration="1500" style="background-image: url('./assets/images/crafted-enhance-img-1.png');">
                         <h4 class="sec-sm-title text-white">Full service restaurant</h4>
                         <a class="get-started-cta justify-content-start text-white" href="#">
                             <span>Learn more</span>
@@ -223,7 +223,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-lg-6">
-                    <div class="gallery-slider-layer-inner crafted-enhance-hospitality-box" style="background-image: url('./assets/images/crafted-enhance-img-2.png');">
+                    <div class="gallery-slider-layer-inner crafted-enhance-hospitality-box" data-aos="fade-left" data-aos-duration="1500" style="background-image: url('./assets/images/crafted-enhance-img-2.png');">
                         <h4 class="sec-sm-title text-white">Quick service restaurant</h4>
                         <a class="get-started-cta justify-content-start text-white" href="#">
                             <span>Learn more</span>
@@ -244,19 +244,19 @@
                     <div class="services-inner">
                         <div class="row">
                             <div class="col-12 col-md-6 col-lg-4">
-                                <div class="services-box text-center">
+                                <div class="services-box text-center" data-aos="fade-up-right" data-aos-duration="1500">
                                     <img class="img-fluid" src="./assets/images/service-icon-1.png" alt="">
                                     <p class="lg-para">Available anytime, anywhere</p>
                                 </div>
                             </div>
                             <div class="col-12 col-md-6 col-lg-4">
-                                <div class="services-box text-center">
+                                <div class="services-box text-center" data-aos="zoom-in" data-aos-duration="1500">
                                     <img class="img-fluid" src="./assets/images/service-icon-2.png" alt="">
                                     <p class="lg-para">With offline mode, <br> always stay connected</p>
                                 </div>
                             </div>
                             <div class="col-12 col-md-6 col-lg-4">
-                                <div class="services-box text-center">
+                                <div class="services-box text-center" data-aos="fade-up-left" data-aos-duration="1500">
                                     <img class="img-fluid" src="./assets/images/service-icon-3.png" alt="">
                                     <p class="lg-para">24/7 support, always there when you need it.</p>
                                 </div>
@@ -273,10 +273,10 @@
     <section class="faqs-section">
         <div class="container">
             <div class="row">
-                <div class="col-12">
+                <div class="col-12" data-aos="fade-down" data-aos-duration="1500">
                     <h2 class="section-title mb-30px">FAQ</h2>
                 </div>
-                <div class="col-12">
+                <div class="col-12" data-aos="fade-down" data-aos-duration="1500">
                     <div class="faq-area active">
                         <div class="faq-top">
                             <button class="faq-btn" type="button">

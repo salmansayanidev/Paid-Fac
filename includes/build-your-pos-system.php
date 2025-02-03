@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="build-your-pos-text-area text-center" data-aos="zoom-in" data-aos-duration="1500">
+                <div class="build-your-pos-text-area text-center" data-aos="zoom-in" data-aos-duration="2000">
                     <h2 class="banner-title">Elevate your business, <br> build your POS system today!</h2>
                     <div class="both-cta-area mt-30px">
                         <a class="primary-btn btn-2 bg-white" href="#">

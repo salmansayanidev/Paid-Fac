@@ -52,3 +52,9 @@
     line-height: normal;
 }
 
+.gallery-slider .gallery-slider-layer:nth-child(even) {
+    width: 341px;
+}
+.gallery-slider .gallery-slider-layer:nth-child(odd) {
+    width: 591px;
+}
