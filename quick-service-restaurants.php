@@ -6,7 +6,7 @@
     <section class="full-service-restaurants-banner">
         <div class="container">
             <div class="row justify-content-between align-items-center">
-                <div class="col-12 col-lg-6">
+                <div class="col-12 col-lg-6" data-aos="fade-right" data-aos-duration="1500">
                     <div class="full-ser-restaurants-bnner-content">
                         <nav aria-label="breadcrumb" class="breadcrumb-area">
                             <ol class="breadcrumb">
@@ -26,7 +26,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-lg-6 col-xl-5">
+                <div class="col-12 col-lg-6 col-xl-5" data-aos="fade-left" data-aos-duration="1500">
                     <div class="full-ser-res-bnner-img">
                         <img class="img-fluid" src="./assets/images/quick-service-restaurant-bnner-img.png" alt="">
                     </div>
@@ -40,10 +40,10 @@
     <section class="restaurants-an-edge">
         <div class="container">
             <div class="row">
-                <div class="col-12">
+                <div class="col-12" data-aos="fade-left" data-aos-duration="1500">
                     <h2 class="section-title text-white">Streamline your quick-service restaurant</h2>
                 </div>
-                <div class="col-12 col-lg-6">
+                <div class="col-12 col-lg-6" data-aos="zoom-in-up" data-aos-duration="1500">
                     <div class="restaurants-an-edge-box">
                         <div class="gallery-slider-layer-inner crafted-enhance-hospitality-box" style="background-image: url('./assets/images/quick-service-restaurant-img-1.png');">
                             <h4 class="sec-sm-title text-white">The POS accelerates your workflow</h4>
@@ -51,7 +51,7 @@
                         <p class="lg-para">Your team, enhanced—enabled to deliver fast, consistent service even with large crowds and special orders.</p>
                     </div>
                 </div>
-                <div class="col-12 col-lg-6">
+                <div class="col-12 col-lg-6" data-aos="zoom-in-up" data-aos-duration="1500">
                     <div class="restaurants-an-edge-box">
                         <div class="gallery-slider-layer-inner crafted-enhance-hospitality-box" style="background-image: url('./assets/images/quick-service-restaurant-img-2.png');">
                             <h4 class="sec-sm-title text-white">Quick, adaptable, and effective</h4>
@@ -68,7 +68,7 @@
     <section class="product-section">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-lg-6">
+                <div class="col-12 col-lg-6" data-aos="zoom-out-up" data-aos-duration="1500">
                     <div class="paidfac-portable-left-area">
                         <h2 class="section-title">PaidFac Duo</h2>
                         <div class="paidfac-portable-left-inner">
@@ -81,7 +81,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-lg-6">
+                <div class="col-12 col-lg-6" data-aos="zoom-out-down" data-aos-duration="1500">
                     <div class="paidfac-portable-img-area">
                         <img class="img-fluid paidfac-portable-img" src="./assets/images/product-img-2.png" alt="">
                     </div>
@@ -95,7 +95,7 @@
     <section class="create-custom-pos-in-minutes bg-transparent">
         <div class="container">
             <div class="row">
-                <div class="col-12">
+                <div class="col-12" data-aos="fade-down" data-aos-duration="1500">
                     <div class="create-custom-pos-in-minutes-top text-center">
                         <h2 class="section-title mb-30px">Create your all-in-one full-service system</h2>
                         <p class="lg-para">by selecting your plan, devices, and accessories.</p>
@@ -112,7 +112,7 @@
                     </div>
                 </div>
                 <div class="col-12">
-                    <div class="cus-pos-in-min-slider">
+                    <div class="cus-pos-in-min-slider" data-aos="zoom-in-up" data-aos-duration="1500">
                         <div class="cus-pos-in-min-slidr-layer">
                             <div class="cus-pos-in-min-img-area">
                                 <img class="img-fluid" src="./assets/images/paidfac-solo.png" alt="">
@@ -196,10 +196,10 @@
     <section class="pricing-section">
         <div class="container">
             <div class="row align-items-end mb-50px">
-                <div class="col-12 col-lg-9">
+                <div class="col-12 col-lg-9" data-aos="zoom-in-left" data-aos-duration="1500">
                     <h2 class="section-title">Choose from three top PadiFac POS systems</h2>
                 </div>
-                <div class="col-12 col-lg-3">
+                <div class="col-12 col-lg-3 text-webkit-center" data-aos="zoom-in-right" data-aos-duration="1500">
                     <div class="pricing-radio-area">
                         <div class="pricing-radio">
                             <input type="radio" class="pricing-radio-input d-none" checked name="pricing_radio" id="monthly-billing">
@@ -220,77 +220,8 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-12">
-                    <div class="pricing-main">
-                        <div class="row g-0">
-                            <div class="col-12 col-md-6 col-lg-4">
-                                <div class="pricing-box">
-                                    <div class="">
-                                        <h6 class="pricing-box-title sec-sm-title">Starter</h6>
-                                    </div>
-                                    <div class="">
-                                        <h4 class="pkg-price">$165/mo</h4>
-                                        <span class="pkg-validity">for 36 months</span>
-                                    </div>
-                                    <div class="">
-                                        <p class="para">Operate your restaurant with a powerful POS system, effortlessly managing orders and payments at the front-of-house wait station.</p>
-                                    </div>
-                                    <div class="">
-                                        <a class="add-to-cart-cta" href="#">
-                                            Add to cart
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-6 col-lg-4">
-                                <div class="pricing-box">
-                                    <div class="">
-                                        <h6 class="pricing-box-title sec-sm-title">Standard</h6>
-                                    </div>
-                                    <div class="">
-                                        <h4 class="pkg-price">$225/mo</h4>
-                                        <span class="pkg-validity">for 36 months</span>
-                                    </div>
-                                    <div class="">
-                                        <p class="para">Upgrade your front-of-house operations with a powerful handheld POS—effortlessly take orders and process payments at the server station or directly at the table.</p>
-                                    </div>
-                                    <div class="">
-                                        <a class="add-to-cart-cta" href="#">
-                                            Add to cart
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-6 col-lg-4">
-                                <div class="pricing-box">
-                                    <div class="">
-                                        <h6 class="pricing-box-title sec-sm-title">Advanced</h6>
-                                    </div>
-                                    <div class="">
-                                        <h4 class="pkg-price">$330/mo</h4>
-                                        <span class="pkg-validity">for 36 months</span>
-                                    </div>
-                                    <div class="">
-                                        <p class="para">Streamline your restaurant operations by taking orders anywhere, connecting front-of-house and back-of-house, and managing your business with powerful tools.</p>
-                                    </div>
-                                    <div class="">
-                                        <a class="add-to-cart-cta" href="#">
-                                            Add to cart
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="pricing-btm-area">
-                                    <button class="show-more-btn">
-                                        <span>Show more</span>
-                                        <i class="fa-solid fa-plus"></i>
-                                    </button>
-                                    <p class="para">Prices are only available on PaidFac.com</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="col-12" data-aos="zoom-in" data-aos-duration="1500">
+                    <?php include "./includes/pricing-section.php"; ?>
                 </div>
             </div>
         </div>
@@ -301,10 +232,10 @@
     <section class="faqs-section">
         <div class="container">
             <div class="row">
-                <div class="col-12">
+                <div class="col-12" data-aos="fade-down" data-aos-duration="1500">
                     <h2 class="section-title mb-30px">FAQ</h2>
                 </div>
-                <div class="col-12">
+                <div class="col-12" data-aos="fade-down" data-aos-duration="1500">
                     <div class="faq-area active">
                         <div class="faq-top">
                             <button class="faq-btn" type="button">
@@ -421,4 +352,4 @@
 
 
 <?php include "./includes/footer.php"; ?>
-<script src="./assets/js/full-service-restaurants.js"></script>
+<script src="./assets/js/quick-service-restaurants.js"></script>

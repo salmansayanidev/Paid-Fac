@@ -6,7 +6,7 @@
     <section class="pricing-bnner-section">
         <div class="container">
             <div class="row">
-                <div class="col-12">
+                <div class="col-12" data-aos="fade-right" data-aos-duration="1500">
                     <div class="pricing-bnner-content">
                         <nav aria-label="breadcrumb" class="breadcrumb-area">
                             <ol class="breadcrumb">
@@ -17,7 +17,7 @@
                         <p class="lg-para mb-30px">Pay as low as 2.3% + 10¢ per transaction, add tools as needed, or select a plan for all-inclusive features.</p>
                     </div>
                 </div>
-                <div class="col-12">
+                <div class="col-12" data-aos="zoom-in" data-aos-duration="1500">
                     <div class="pricing-banner-img-area">
                         <img class="img-fluid" src="./assets/images/pricing-banner-img.png" alt="">
                     </div>
@@ -31,10 +31,10 @@
     <section class="pricing-section pb-0">
         <div class="container">
             <div class="row align-items-end mb-30px">
-                <div class="col-12 col-lg-9">
+                <div class="col-12 col-lg-9" data-aos="zoom-in-left" data-aos-duration="1500">
                     <h2 class="section-title">Discover the perfect solution <br> to drive your business</h2>
                 </div>
-                <div class="col-12 col-lg-3">
+                <div class="col-12 col-lg-3 text-webkit-center" data-aos="fade-up" data-aos-duration="1500">
                     <div class="pricing-radio-area">
                         <div class="pricing-radio">
                             <input type="radio" class="pricing-radio-input d-none" checked name="pricing_radio" id="pricing-monthly">
@@ -55,7 +55,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-12">
+                <div class="col-12" data-aos="zoom-in-right" data-aos-duration="1500">
                     <div class="pricing-tabs-area">
                         <p class="para fw-normal">Plans to fit every stage</p>
                         <ul class="pricing-tabs-list">
@@ -79,10 +79,10 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-12">
+                <div class="col-12" data-aos="zoom-in" data-aos-duration="1500">
                     <div class="pricing-main active" data-content="Full-service-restuarants">
-                        <div class="row g-0">
-                            <div class="col-12 col-md-6 col-lg-4">
+                        <div class="row g-lg-0 justify-content-center">
+                            <div class="col-12 col-md-6 col-lg-4" >
                                 <div class="pricing-box">
                                     <div class="">
                                         <h6 class="pricing-box-title sec-sm-title">Starter</h6>
@@ -101,7 +101,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-12 col-md-6 col-lg-4">
+                            <div class="col-12 col-md-6 col-lg-4" >
                                 <div class="pricing-box">
                                     <div class="">
                                         <h6 class="pricing-box-title sec-sm-title">Standard</h6>
@@ -120,7 +120,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-12 col-md-6 col-lg-4">
+                            <div class="col-12 col-md-6 col-lg-4" >
                                 <div class="pricing-box">
                                     <div class="">
                                         <h6 class="pricing-box-title sec-sm-title">Advanced</h6>
@@ -139,7 +139,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-12">
+                            <div class="col-12" >
                                 <div class="pricing-btm-area">
                                     <button class="show-more-btn">
                                         <span>Show more</span>
@@ -151,7 +151,7 @@
                         </div>
                     </div>
                     <div class="pricing-main " data-content="Quick-service-restaurant">
-                        <div class="row g-0">
+                        <div class="row g-lg-0 justify-content-center">
                             <div class="col-12 col-md-6 col-lg-4">
                                 <div class="pricing-box">
                                     <div class="">
@@ -221,7 +221,7 @@
                         </div>
                     </div>
                     <div class="pricing-main " data-content="For-other-service">
-                        <div class="row g-0">
+                        <div class="row g-lg-0 justify-content-center">
                             <div class="col-12 col-md-6 col-lg-4">
                                 <div class="pricing-box">
                                     <div class="">
@@ -304,7 +304,7 @@
     <section class="create-custom-pos-in-minutes bg-transparent">
         <div class="container">
             <div class="row">
-                <div class="col-12">
+                <div class="col-12" data-aos="fade-up" data-aos-duration="1500">
                     <div class="flexible-hardware-options-top">
                         <h2 class="section-title mb-30px">Flexible hardware options</h2>
                         <a class="get-started-cta" href="#">
@@ -313,7 +313,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4">
+                <div class="col-12 col-md-6 col-lg-4" data-aos="zoom-in-up" data-aos-duration="1500">
                     <div class="flexible-hardware-option-box">
                         <div class="cus-pos-in-min-img-area">
                             <img class="img-fluid" src="./assets/images/paidfac-portable.png" alt="">
@@ -327,7 +327,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4">
+                <div class="col-12 col-md-6 col-lg-4" data-aos="zoom-in-up" data-aos-duration="1500">
                     <div class="flexible-hardware-option-box">
                         <div class="cus-pos-in-min-img-area">
                             <img class="img-fluid" src="./assets/images/paidfac-duo.png" alt="">
@@ -341,7 +341,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4">
+                <div class="col-12 col-md-6 col-lg-4" data-aos="zoom-in-up" data-aos-duration="1500">
                     <div class="flexible-hardware-option-box">
                         <div class="cus-pos-in-min-img-area">
                             <img class="img-fluid" src="./assets/images/paidfac-solo.png" alt="">
@@ -364,10 +364,10 @@
     <section class="faqs-section">
         <div class="container">
             <div class="row">
-                <div class="col-12">
+                <div class="col-12" data-aos="fade-down" data-aos-duration="1500">
                     <h2 class="section-title mb-30px">FAQ</h2>
                 </div>
-                <div class="col-12">
+                <div class="col-12" data-aos="fade-down" data-aos-duration="1500">
                     <div class="faq-area active">
                         <div class="faq-top">
                             <button class="faq-btn" type="button">

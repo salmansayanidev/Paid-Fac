@@ -1,7 +1,7 @@
 <section class="available-padifac-account">
     <div class="container">
         <div class="row justify-content-between align-items-center">
-            <div class="col-12 col-lg-6">
+            <div class="col-12 col-lg-6" data-aos="fade-right" data-aos-duration="1500">
                 <div class="available-padifac-account-content">
                     <h2 class="section-title text-white">Available with every PadiFac account</h2>
                     <ul class="available-padifac-account-list">
@@ -40,7 +40,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-12 col-lg-5">
+            <div class="col-12 col-lg-6 col-xl-5" data-aos="fade-left"" data-aos-duration="1500">
                 <div class="available-padifac-img-area">
                     <img class="img-fluid" src="./assets/images/quick-service-restaurant-bnner-img.png" alt="">
                 </div>

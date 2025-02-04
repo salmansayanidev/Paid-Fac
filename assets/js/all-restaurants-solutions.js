@@ -1,14 +1,24 @@
 $(".gallery-slider").slick({
     autoplay: true,
-    autoplaySpeed: 2500,
+    autoplaySpeed: 2000,
     dots: false,
     infinite: true,
     pauseOnHover: false,
-    slidesToScroll: 1,
     speed: 1000,
     variableWidth: true,
-    slidesToShow: 1,
+    slidesToShow: 4,
     arrows: false,
+    responsive: [{
+        breakpoint: 992,
+        settings: {
+            slidesToShow: 2,
+        },
+        breakpoint: 500,
+        settings: {
+            slidesToShow: 1,
+        }
+    },
+    ]
 });
 
 
@@ -21,19 +31,13 @@ $('.cus-pos-in-min-slider').slick({
     nextArrow: '.custom-pos-slider-btn.next-arrow',
     prevArrow: '.custom-pos-slider-btn.pre-arrow',
     responsive: [{
-        breakpoint: 1024,
-        settings: {
-            slidesToShow: 3,
-        }
-    },
-    {
-        breakpoint: 600,
+        breakpoint: 1200,
         settings: {
             slidesToShow: 2,
         }
     },
     {
-        breakpoint: 480,
+        breakpoint: 768,
         settings: {
             slidesToShow: 1,
         }

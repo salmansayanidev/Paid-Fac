@@ -6,7 +6,7 @@
     <section class="pricing-bnner-section">
         <div class="container">
             <div class="row">
-                <div class="col-12">
+                <div class="col-12" data-aos="fade-right" data-aos-duration="1500">
                     <div class="pricing-bnner-content">
                         <nav aria-label="breadcrumb" class="breadcrumb-area">
                             <ol class="breadcrumb">
@@ -17,7 +17,7 @@
                         <p class="lg-para mb-30px">Personalized, expert setup support tailored to your unique business needs.</p>
                     </div>
                 </div>
-                <div class="col-12">
+                <div class="col-12" data-aos="fade-left" data-aos-duration="1500">
                     <div class="pricing-banner-img-area">
                         <img class="img-fluid" src="./assets/images/hardware-product-banner-img.png" alt="">
                     </div>
@@ -31,13 +31,13 @@
     <section class="flex-hardware-options-section bg-transparent">
         <div class="container">
             <div class="row">
-                <div class="col-12">
+                <div class="col-12" data-aos="fade-up" data-aos-duration="1500">
                     <div class="flexible-hardware-options-top">
                         <h2 class="section-title mb-20px">Flexible hardware options</h2>
                         <p class="lg-para">Select your plan, devices, and accessories.</p>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4">
+                <div class="col-12 col-md-6 col-lg-4"  data-aos="zoom-in-up" data-aos-duration="1500">
                     <div class="flexible-hardware-option-box">
                         <div class="cus-pos-in-min-img-area">
                             <img class="img-fluid" src="./assets/images/paidfac-portable.png" alt="">
@@ -51,7 +51,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4">
+                <div class="col-12 col-md-6 col-lg-4" data-aos="zoom-in-up" data-aos-duration="1500">
                     <div class="flexible-hardware-option-box">
                         <div class="cus-pos-in-min-img-area">
                             <img class="img-fluid" src="./assets/images/paidfac-duo.png" alt="">
@@ -65,7 +65,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4">
+                <div class="col-12 col-md-6 col-lg-4" data-aos="zoom-in-up" data-aos-duration="1500">
                     <div class="flexible-hardware-option-box">
                         <div class="cus-pos-in-min-img-area">
                             <img class="img-fluid" src="./assets/images/paidfac-solo.png" alt="">
@@ -79,7 +79,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4">
+                <div class="col-12 col-md-6 col-lg-4" data-aos="zoom-in-up" data-aos-duration="1500">
                     <div class="flexible-hardware-option-box">
                         <div class="cus-pos-in-min-img-area">
                             <img class="img-fluid" src="./assets/images/paidfac-compact.png" alt="">
@@ -93,7 +93,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4">
+                <div class="col-12 col-md-6 col-lg-4" data-aos="zoom-in-up" data-aos-duration="1500">
                     <div class="flexible-hardware-option-box">
                         <div class="cus-pos-in-min-img-area">
                             <img class="img-fluid" src="./assets/images/paidfac-kiosk.png" alt="">

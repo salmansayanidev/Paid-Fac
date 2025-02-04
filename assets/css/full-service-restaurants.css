@@ -33,3 +33,142 @@
     height: 713px;
     left: -70px;
 }
+
+
+@media (max-width: 1399px) {
+    .full-service-restaurants-banner {
+        padding: 70px 0;
+    }
+
+    .full-ser-restaurants-bnner-content .banner-title {
+        font-size: 5.4rem;
+        line-height: 60px;
+    }
+
+    .restaurants-an-edge {
+        background-color: var(--text-color);
+        padding: 70px 0 50px;
+    }
+
+    .paidfac-portable-img {
+        position: relative;
+        width: auto;
+        height: auto;
+        left: -70px;
+    }
+
+    .product-section {
+        padding: 65px 0;
+    }
+
+    .create-custom-pos-in-minutes {
+        padding: 50px 0 40px;
+    }
+
+    .restaurants-an-edge-box .lg-para {
+        font-size: 2.2rem;
+    }
+
+}
+
+@media (max-width: 1199px) {
+    .full-service-restaurants-banner {
+        padding: 50px 0;
+    }
+
+    .full-ser-restaurants-bnner-content .banner-title {
+        font-size: 4.6rem;
+        line-height: 55px;
+    }
+
+    .restaurants-an-edge-box .lg-para {
+        padding: 0 15px;
+    }
+
+    .product-section .paidfac-portable-left-area {
+        padding-right: 0px;
+    }
+
+    .paidfac-portable-img {
+        left: 0px;
+    }
+
+    .cus-pos-title {
+        font-size: 3.2rem;
+    }
+
+}
+
+@media (max-width: 991px) {
+
+    .full-ser-restaurants-bnner-content {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .full-ser-res-bnner-img {
+        text-align: center;
+    }
+
+    .restaurants-an-edge .section-title {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .restaurants-an-edge {
+        padding: 50px 0 50px;
+    }
+
+    .restaurants-an-edge-box .crafted-enhance-hospitality-box {
+        align-items: center;
+    }
+
+    .restaurants-an-edge-box .lg-para {
+        padding: 0 0px;
+        text-align: center;
+    }
+
+    .restaurants-an-edge-box {
+        margin-bottom: 20px;
+    }
+
+    .product-section .paidfac-portable-left-area {
+        margin-top: 0px;
+        margin-bottom: 20px;
+        text-align: -webkit-center;
+    }
+
+    .product-section .get-started-cta {
+        width: fit-content;
+    }
+
+    .create-custom-pos-in-minutes {
+        padding: 0px 0 40px;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .product-section {
+        padding: 50px 0;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .restaurants-an-edge-box .lg-para {
+        font-size: 2rem;
+    }
+
+    .full-ser-restaurants-bnner-content .banner-title {
+        font-size: 4rem;
+        line-height: 45px;
+    }
+}
+
+@media (max-width: 375px) {
+
+    .restaurants-an-edge-box .crafted-enhance-hospitality-box {
+        height: 350px;
+    }
+}

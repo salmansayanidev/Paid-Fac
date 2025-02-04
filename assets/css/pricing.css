@@ -100,3 +100,121 @@
 .flex-hardware-options-section {
     padding: 90px 0;
 }
+
+@media (max-width: 1440px) {
+    .flex-hardware-options-section {
+        padding: 40px 0 60px;
+    }
+
+    .available-padifac-account {
+        padding: 100px 0;
+    }
+}
+
+@media (max-width: 1399px) {
+    .available-padifac-account-content .section-title {
+        line-height: 70px;
+        font-size: 5.6rem;
+    }
+
+    .pos-equipment-section {
+        padding: 70px 0;
+    }
+
+    .flexible-hardware-option-box .cus-pos-in-min-img-area {
+        height: 370px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .available-padifac-account-list {
+        padding-left: 10px;
+    }
+
+    .available-padifac-account-content .section-title {
+        line-height: 60px;
+        font-size: 4.8rem;
+    }
+
+    .available-padifac-account-list-item {
+        margin-bottom: 12px;
+    }
+}
+
+@media (max-width: 991px) {
+    .pricing-tabs-area {
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .pricing-tabs-list {
+        justify-content: center;
+    }
+
+    .pricing-bnner-content {
+        text-align: center;
+    }
+
+    .available-padifac-account {
+        padding: 60px 0;
+    }
+
+    .available-padifac-account-content {
+        margin-bottom: 30px;
+    }
+
+    .available-padifac-img-area {
+        text-align: center;
+    }
+}
+
+@media (max-width: 767px) {
+    .pricing-tabs-btn {
+        font-size: 1.2rem;
+        padding: 9.5px 10px;
+    }
+
+    .pricing-tabs-list {
+        flex-wrap: wrap;
+    }
+
+    .available-padifac-account-list {
+        padding-left: 0px;
+    }
+
+    .pricing-bnner-section {
+        padding: 40px 0 10px;
+    }
+
+    .pos-equipment-section {
+        padding: 50px 0 30px;
+    }
+}
+
+@media (max-width: 575px) {
+    .available-padifac-para {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 414px) {
+    .available-padifac-account-content .section-title {
+        line-height: 50px;
+        font-size: 4rem;
+    }
+
+    .available-padifac-account-list-item {
+        align-items: self-start;
+        gap: 10px;
+    }
+
+    .available-padifac-account-list-item img {
+        margin-top: 5px;
+    }
+}
+
+@media (max-width: 375px) {
+    .flexible-hardware-option-box .cus-pos-in-min-img-area {
+        height: 340px;
+    }
+}

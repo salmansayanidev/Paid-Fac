@@ -299,7 +299,19 @@
                                         </div>
                                     </div>
                                     <div class="paidfac-portable-left-area">
-                                        <h2 class="section-title">PaidFac Solo</h2>
+                                        <h2 class="section-title">PaidFac Portable</h2>
+                                        <div class="paidfac-portable-left-inner">
+                                            <h4 class="sec-sm-title">Sell anywhere, anytime with ease</h4>
+                                            <p class="lg-para">Experience the freedom to sell anytime, anywhere, with an all in one
+                                                POS system that fits right in the palm of your hand.</p>
+                                            <a class="get-started-cta justify-content-start" href="#">
+                                                <span>Get started</span>
+                                                <i class="fa-solid fa-arrow-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="paidfac-portable-left-area">
+                                        <h2 class="section-title">PaidFac Duo</h2>
                                         <div class="paidfac-portable-left-inner">
                                             <h4 class="sec-sm-title">Sell anywhere, anytime with ease</h4>
                                             <p class="lg-para">Experience the freedom to sell anytime, anywhere, with an all in one
@@ -320,10 +332,13 @@
                                             <img class="img-fluid" src="./assets/images/paidfac-product-img.png" alt="">
                                         </div>
                                         <div class="slider-nav-layer">
-                                            <img class="img-fluid" src="./assets/images/paidfac-product-img.png" alt="">
+                                            <img class="img-fluid" src="./assets/images/paidfac-product-img-2.png" alt="">
                                         </div>
                                         <div class="slider-nav-layer">
                                             <img class="img-fluid" src="./assets/images/paidfac-product-img.png" alt="">
+                                        </div>
+                                        <div class="slider-nav-layer">
+                                            <img class="img-fluid" src="./assets/images/paidfac-product-img-2.png" alt="">
                                         </div>
                                     </div>
                                     <div class="pro-slider-btn-area">

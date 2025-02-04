@@ -211,6 +211,7 @@ ul {
   justify-content: space-between;
   align-items: center;
   gap: 10px;
+  text-align: start;
 }
 
 .faq-btn i {
@@ -315,7 +316,7 @@ ul {
   display: flex;
   justify-content: start;
   align-items: end;
-  max-width: 591px;
+  /* max-width: 591px; */
 }
 
 .gallery-slider-layer-inner::before,
@@ -484,6 +485,7 @@ ul {
   align-items: center;
   border: 3px solid var(--text-color);
   position: relative;
+  flex-shrink: 0;
 }
 
 .pricing-radio-circle::before {
@@ -648,7 +650,29 @@ ul {
   text-align: -webkit-center;
 }
 
+.cus-pos-in-min-content-area {
+  text-align: -webkit-center !important;
+}
+
+.flexible-hardware-option-box .get-started-cta {
+  width: fit-content;
+}
+
 @media (max-width: 1600px) {
+  .pricing-radio-area {
+    padding: 15px 20px;
+  }
+
+  .pricing-radio-label {
+    gap: 15px;
+  }
+
+  .gallery-slider-layer-inner,
+  .crafted-enhance-hospitality-box {
+    height: 444px;
+    padding: 15px 15px;
+  }
+
   .sec-sm-title {
     font-size: 3.4rem;
   }
@@ -686,6 +710,15 @@ ul {
 }
 
 @media (max-width: 1440px) {
+  .create-custom-pos-in-minutes {
+    padding: 70px 0 40px;
+  }
+
+  .all-restaurants-solution,
+  .pricing-bnner-section,
+  .contact-us-banner {
+    padding: 80px 0 50px;
+  }
 
   .banner-title,
   .section-title {
@@ -695,9 +728,47 @@ ul {
   .paidfac-portable-left-inner .lg-para {
     font-size: 2rem;
   }
+
+  .flexible-hardware-option-box {
+    margin-top: 50px;
+  }
 }
 
 @media (max-width: 1399px) {
+  .pricing-radio-area {
+    padding: 15px 10px;
+  }
+
+  .pkg-price {
+    font-size: 4.6rem;
+  }
+
+  .pkg-validity {
+    font-size: 2.2rem;
+  }
+
+  .pricing-box {
+    padding: 36px 30px 40px;
+    min-height: 480px;
+  }
+
+  .pricing-radio-label {
+    font-size: 1.6rem;
+    gap: 10px;
+  }
+
+  .pricing-radio.gap-4 {
+    gap: 10px !important;
+  }
+
+  .pricing-section {
+    padding: 70px 0;
+  }
+
+  .faqs-section {
+    padding: 80px 0 80px;
+  }
+
   .build-your-pos {
     padding: 70px 0;
   }
@@ -705,9 +776,36 @@ ul {
   .paidfac-portable-left-inner .sec-sm-title {
     font-size: 3rem;
   }
+
+  .all-restaurants-solution,
+  .pricing-bnner-section,
+  .contact-us-banner {
+    padding: 60px 0 50px;
+  }
+
+  .restaurants-POS-content-box .lg-para {
+    font-size: 2rem;
+    line-height: 34px;
+  }
+
+  .restaurants-POS-content-box {
+    max-width: 500px;
+    padding: 30px 40px;
+  }
+
+  .cus-pos-in-min-img-area {
+    padding: 30px 20px;
+    height: 410px;
+  }
 }
 
 @media (max-width: 1280px) {
+
+  .gallery-slider-layer-inner,
+  .crafted-enhance-hospitality-box {
+    height: 414px;
+    padding: 15px 15px;
+  }
 
   .banner-title,
   .section-title {
@@ -723,18 +821,118 @@ ul {
   .paidfac-portable-left-inner .sec-sm-title {
     font-size: 2.8rem;
   }
+
+  .cus-pos-title {
+    font-size: 3.5rem;
+    margin-bottom: 5px;
+  }
+
+  .section-title.mb-30px {
+    margin-bottom: 20px;
+  }
 }
 
 @media (max-width: 1199px) {
+  .cus-pos-in-min-img-area {
+    height: 380px;
+  }
+
+  .pricing-section .section-title {
+    line-height: 65px;
+  }
+
+  .pricing-section .section-title br {
+    display: none;
+  }
+
+  .cus-pos-title {
+    font-size: 3.2rem;
+  }
+
+  .get-started-cta {
+    font-size: 1.8rem;
+  }
+
+  .cus-pos-in-min-img-area {
+    margin-bottom: 30px;
+  }
+
+  .full-ser-restaurants-bnner-content .lg-para {
+    font-size: 2.2rem;
+  }
+
+
+  .pricing-radio-label {
+    font-size: 1.4rem;
+    gap: 5px;
+    line-height: 20px;
+  }
+
+  .pricing-radio-circle {
+    height: 20px;
+    width: 20px;
+  }
+
+  .pricing-radio-input:checked+.pricing-radio-label .pricing-radio-circle::before {
+    height: 10px;
+    width: 10px;
+  }
+
+  .pricing-box {
+    padding: 30px 20px 30px;
+    min-height: 480px;
+  }
+
+  .pkg-price {
+    font-size: 4.4rem;
+  }
+
+  .pkg-validity {
+    font-size: 2rem;
+  }
+
+  .pricing-radio-area {
+    padding: 10px 5px;
+  }
+
+  .restaurants-POS-content-box .lg-para {
+    font-size: 1.7rem;
+    line-height: 30px;
+  }
+
+  .faq-area {
+    padding-bottom: 12px;
+    margin-bottom: 12px;
+  }
 
   .banner-title,
   .section-title {
     font-size: 5.6rem;
     line-height: 60px;
   }
+
+  .create-custom-pos-in-minutes {
+    padding: 60px 0 40px;
+    background-color: #F6F6F6;
+  }
+
+  .faq-btn {
+    font-size: 2.2rem;
+    line-height: 30px;
+  }
+
+  .restaurants-POS-content-box {
+    max-width: 400px;
+    padding: 20px 20px;
+  }
 }
 
 @media (max-width: 1024px) {
+
+  .gallery-slider-layer-inner,
+  .crafted-enhance-hospitality-box {
+    height: 394px;
+  }
 
   .banner-title,
   .section-title {
@@ -744,6 +942,53 @@ ul {
 }
 
 @media (max-width: 991px) {
+  .pricing-box:hover {
+    border-radius: 25px !important;
+    transform: scale(1);
+    transform-origin: center;
+  }
+
+  .pricing-box {
+    margin-bottom: 20px;
+    border-radius: 25px !important;
+  }
+
+  .pricing-btm-area {
+    padding: 24px 0;
+    border-top: none;
+    border-radius: 25px 25px 25px 25px;
+  }
+
+  .pricing-radio-area {
+    padding: 10px 5px;
+    margin-top: 20px;
+  }
+
+  .pricing-section {
+    padding: 50px 0;
+  }
+
+  .pricing-section .section-title {
+    line-height: 70px;
+    text-align: center;
+  }
+
+  .pricing-section .mb-50px {
+    margin-bottom: 30px;
+  }
+
+  .text-webkit-center {
+    text-align: -webkit-center;
+  }
+
+  .pricing-main .row .col-12.col-md-6.col-lg-4:first-child .pricing-box,
+  .pricing-main .row .col-12.col-md-6.col-lg-4:nth-child(3) .pricing-box {
+    border-radius: inherit;
+  }
+
+  .faqs-section .section-title {
+    text-align: center;
+  }
 
   .banner-title,
   .section-title {
@@ -757,6 +1002,65 @@ ul {
   .paidfac-portable-left-inner {
     margin-top: 20px;
   }
+
+  .lg-para {
+    font-size: 2.2rem;
+    line-height: 32px;
+  }
+
+  .breadcrumb-area .breadcrumb {
+    justify-content: center;
+  }
+
+  .banner-cta {
+    margin-top: 20px;
+    justify-content: center;
+  }
+
+  .all-restaurants-solution,
+  .pricing-bnner-section,
+  .contact-us-banner {
+    padding: 40px 0 30px;
+  }
+
+  .restaurants-POS-content-box {
+    max-width: 400px;
+    padding: 20px 20px;
+    position: unset;
+    transform: unset;
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .create-custom-pos-in-minutes {
+    padding: 50px 0 30px;
+    background-color: #F6F6F6;
+  }
+
+  .create-custom-pos-slider-btns {
+    justify-content: center;
+    margin: 10px 0 20px;
+  }
+
+  .custom-pos-slider-btn {
+    height: 30px;
+    width: 30px;
+    font-size: 1.6rem;
+  }
+
+  .cus-pos-in-min-img-area {
+    padding: 20px 20px;
+    height: 350px;
+    margin-bottom: 20px;
+  }
+
+  .cus-pos-title {
+    font-size: 3.2rem;
+  }
+
+  .faqs-section {
+    padding: 50px 0 50px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -767,7 +1071,41 @@ ul {
   }
 }
 
+@media (max-width: 767px) {
+  .flexible-hardware-option-box {
+    margin-top: 30px;
+  }
+
+  .crafted-enhance-hospitality-box .sec-sm-title {
+    font-size: 3.2rem;
+  }
+
+  .cus-pos-in-min-img-area img {
+    height: 100%;
+  }
+
+  .pricing-section .section-title {
+    line-height: 40px;
+  }
+
+  .show-more-btn {
+    font-size: 1.8rem;
+  }
+
+  .restaurants-an-edge-box .sec-sm-title {
+    text-align: center;
+    line-height: 40px;
+  }
+}
+
 @media (max-width: 575px) {
+  .cus-pos-in-min-img-area {
+    margin-bottom: 20px;
+  }
+
+  .crafted-enhance-hospitality-box .sec-sm-title {
+    font-size: 3rem;
+  }
 
   .banner-title,
   .section-title {
@@ -792,12 +1130,43 @@ ul {
     font-size: 4rem;
     line-height: 50px;
   }
+
+  .lg-para {
+    font-size: 2rem;
+    line-height: 28px;
+  }
 }
 
 @media (max-width: 414px) {
 
   .banner-title,
   .section-title {
+    line-height: 40px;
+  }
+
+  .faq-btn {
+    font-size: 2rem;
+    line-height: 25px;
+  }
+
+  .banner-title,
+  .section-title {
     font-size: 3.5rem;
+  }
+
+  .crafted-enhance-hospitality-box .sec-sm-title {
+    font-size: 2.6rem;
+    line-height: 35px;
+  }
+
+  .build-your-pos-text-area .banner-title {
+    font-size: 3.2rem;
+    line-height: 40px;
+  }
+}
+
+@media (max-width: 375px) {
+  .build-your-pos-text-area .banner-title {
+    font-size: 3rem;
   }
 }

@@ -52,9 +52,213 @@
     line-height: normal;
 }
 
-.gallery-slider .gallery-slider-layer:nth-child(even) {
-    width: 341px;
-}
 .gallery-slider .gallery-slider-layer:nth-child(odd) {
-    width: 591px;
+    /* max-width: 341px; */
+    width: 17.65vw;
+}
+
+.gallery-slider .gallery-slider-layer:nth-child(even) {
+    /* max-width: 591px; */
+    width: 30.64vw;
+}
+
+@media (max-width: 1600px) {
+    .gallery-slider-sb-layer .gallery-slider-layer-inner:nth-child(2) {
+        height: 260px;
+    }
+
+    .gallery-slider-sb-layer .gallery-slider-layer-inner:first-child {
+        height: 164px;
+    }
+
+    .restaurants-POS {
+        padding: 100px 0;
+    }
+
+    .gallery-slider-layer-inner .sm-accor-title {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 1399px) {
+    .gallery-slider-layer {
+        margin: 0 9px;
+    }
+
+    .crafted-enhance-hospitality-top {
+        margin-bottom: 50px;
+    }
+
+    .crafted-enhance-hospitality {
+        padding: 70px 0 100px;
+    }
+
+}
+
+@media (max-width: 1280px) {
+    .gallery-slider-sb-layer .gallery-slider-layer-inner:first-child {
+        height: 150px;
+    }
+
+    .gallery-slider-sb-layer .gallery-slider-layer-inner:nth-child(2) {
+        height: 244px;
+    }
+
+    .restaurants-POS {
+        padding: 70px 0;
+    }
+}
+
+@media (max-width: 1199px) {
+    .gallery-slider-layer-inner .sm-accor-title {
+        font-size: 1.6rem;
+    }
+
+    .gallery-slider-layer-inner,
+    .crafted-enhance-hospitality-box {
+        padding: 15px 10px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .gallery-slider-layer {
+        margin: 0 6px;
+    }
+
+    .gallery-slider-sb-layer {
+        gap: 10px;
+    }
+
+    .gallery-slider-sb-layer .gallery-slider-layer-inner:first-child {
+        height: 145px;
+    }
+
+    .gallery-slider-sb-layer .gallery-slider-layer-inner:nth-child(2) {
+        height: 239px;
+    }
+}
+
+@media (max-width: 991px) {
+    .gallery-slider .gallery-slider-layer:nth-child(odd) {
+        width: 30vw;
+    }
+
+    .gallery-slider .gallery-slider-layer:nth-child(even) {
+        width: 68vw;
+    }
+
+    .all-restaurants-solution-content {
+        text-align: center;
+    }
+
+    .restaurants-POS {
+        padding: 50px 0;
+    }
+
+    .crafted-enhance-hospitality {
+        padding: 50px 0 60px;
+    }
+
+    .crafted-enhance-hospitality-box {
+        margin-bottom: 20px;
+        padding: 20px 30px;
+    }
+
+    .services-box {
+        margin-bottom: 20px;
+    }
+
+    .services-section {
+        padding: 40px 0;
+        background-color: #F6F6F6;
+    }
+
+    .para {
+        font-size: 1.4rem;
+    }
+
+    .faq-btn {
+        font-size: 2rem;
+        line-height: 30px;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .all-restaurants-solution-content .banner-title {
+        font-size: 4.6rem;
+        line-height: 50px;
+        margin-bottom: 10px;
+    }
+
+    .services-box img {
+        margin-bottom: 10px;
+        width: 80px;
+    }
+}
+
+@media (max-width: 575px) {
+
+    .gallery-slider-layer-inner {
+        height: 354px;
+    }
+
+    .gallery-slider-sb-layer .gallery-slider-layer-inner:first-child {
+        height: 130px;
+    }
+
+    .gallery-slider-sb-layer .gallery-slider-layer-inner:nth-child(2) {
+        height: 219px;
+    }
+
+    .gallery-slider-sb-layer {
+        gap: 5px;
+    }
+}
+
+@media (max-width: 480px) {
+    .all-restaurants-solution-content .banner-title {
+        font-size: 4.4rem;
+        line-height: 45px;
+        margin-bottom: 10px;
+    }
+
+    .gallery-slider .gallery-slider-layer:nth-child(odd) {
+        width: 100vw;
+    }
+
+    .gallery-slider .gallery-slider-layer:nth-child(even) {
+        width: 100vw;
+    }
+
+    .gallery-slider-sb-layer .gallery-slider-layer-inner:first-child {
+        height: 174px;
+    }
+
+    .gallery-slider-sb-layer .gallery-slider-layer-inner:nth-child(2) {
+        height: 175px;
+    }
+
+    .gallery-slider-layer-inner,
+    .crafted-enhance-hospitality-box {
+        padding: 15px 20px;
+    }
+}
+
+@media (max-width: 414px) {
+    .all-restaurants-solution-content .banner-title {
+        font-size: 4.2rem;
+        line-height: 40px;
+    }
+
+    .crafted-enhance-hospitality {
+        padding: 40px 0 50px;
+    }
+}
+
+@media (max-width: 375px) {
+    .all-restaurants-solution-content .banner-title {
+        font-size: 4rem;
+        line-height: 40px;
+    }
 }

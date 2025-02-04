@@ -57,9 +57,9 @@
                                     <li class="nav-menu-item">
                                         <a class="nav-menu-link" href="#">
                                             <span>Services</span>
-                                            <i class="fa-solid fa-angle-down"></i>
+                                            <!-- <i class="fa-solid fa-angle-down"></i> -->
                                         </a>
-                                        <ul class="sub-menu">
+                                        <!-- <ul class="sub-menu">
                                             <li class="sub-menu-item">
                                                 <a class="nav-menu-link" href="#">
                                                     Example One
@@ -75,14 +75,14 @@
                                                     Example Three
                                                 </a>
                                             </li>
-                                        </ul>
+                                        </ul> -->
                                     </li>
                                     <li class="nav-menu-item">
                                         <a class="nav-menu-link" href="#">
                                             <span>Retail</span>
-                                            <i class="fa-solid fa-angle-down"></i>
+                                            <!-- <i class="fa-solid fa-angle-down"></i> -->
                                         </a>
-                                        <ul class="sub-menu">
+                                        <!-- <ul class="sub-menu">
                                             <li class="sub-menu-item">
                                                 <a class="nav-menu-link" href="#">
                                                     Example One
@@ -98,14 +98,14 @@
                                                     Example Three
                                                 </a>
                                             </li>
-                                        </ul>
+                                        </ul> -->
                                     </li>
                                     <li class="nav-menu-item">
                                         <a class="nav-menu-link" href="products.php">
                                             <span>Products</span>
-                                            <i class="fa-solid fa-angle-down"></i>
+                                            <!-- <i class="fa-solid fa-angle-down"></i> -->
                                         </a>
-                                        <ul class="sub-menu">
+                                        <!-- <ul class="sub-menu">
                                             <li class="sub-menu-item">
                                                 <a class="nav-menu-link" href="#">
                                                     Example One
@@ -121,14 +121,14 @@
                                                     Example Three
                                                 </a>
                                             </li>
-                                        </ul>
+                                        </ul> -->
                                     </li>
                                     <li class="nav-menu-item">
                                         <a class="nav-menu-link" href="#">
                                             <span>Resources</span>
-                                            <i class="fa-solid fa-angle-down"></i>
+                                            <!-- <i class="fa-solid fa-angle-down"></i> -->
                                         </a>
-                                        <ul class="sub-menu">
+                                        <!-- <ul class="sub-menu">
                                             <li class="sub-menu-item">
                                                 <a class="nav-menu-link" href="#">
                                                     Example One
@@ -144,7 +144,7 @@
                                                     Example Three
                                                 </a>
                                             </li>
-                                        </ul>
+                                        </ul> -->
                                     </li>
                                 </ul>
                             </nav>

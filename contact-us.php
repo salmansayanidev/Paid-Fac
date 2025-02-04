@@ -6,7 +6,7 @@
     <section class="contact-us-banner">
         <div class="container">
             <div class="row">
-                <div class="col-12">
+                <div class="col-12" data-aos="fade-right" data-aos-duration="1500">
                     <div class="pricing-bnner-content">
                         <nav aria-label="breadcrumb" class="breadcrumb-area">
                             <ol class="breadcrumb">
@@ -17,7 +17,7 @@
                         <p class="lg-para mb-30px">It's simple to set up your business with PaidFac.</p>
                     </div>
                 </div>
-                <div class="col-12">
+                <div class="col-12" data-aos="zoom-in" data-aos-duration="1500">
                     <div class="restaurants-pos-main">
                         <div class="row justify-content-end">
                             <div class="col-12 col-lg-5">
@@ -59,7 +59,7 @@
     <section class="create-custom-pos-in-minutes bg-transparent">
         <div class="container">
             <div class="row">
-                <div class="col-12">
+                <div class="col-12" data-aos="fade-up" data-aos-duration="1500">
                     <div class="flexible-hardware-options-top">
                         <h2 class="section-title mb-30px">Flexible hardware options</h2>
                         <a class="get-started-cta" href="#">
@@ -68,7 +68,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4">
+                <div class="col-12 col-md-6 col-lg-4" data-aos="zoom-in-up" data-aos-duration="1500">
                     <div class="flexible-hardware-option-box">
                         <div class="cus-pos-in-min-img-area">
                             <img class="img-fluid" src="./assets/images/paidfac-portable.png" alt="">
@@ -82,7 +82,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4">
+                <div class="col-12 col-md-6 col-lg-4" data-aos="zoom-in-up" data-aos-duration="1500">
                     <div class="flexible-hardware-option-box">
                         <div class="cus-pos-in-min-img-area">
                             <img class="img-fluid" src="./assets/images/paidfac-duo.png" alt="">
@@ -96,7 +96,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4">
+                <div class="col-12 col-md-6 col-lg-4" data-aos="zoom-in-up" data-aos-duration="1500">
                     <div class="flexible-hardware-option-box">
                         <div class="cus-pos-in-min-img-area">
                             <img class="img-fluid" src="./assets/images/paidfac-solo.png" alt="">

@@ -63,6 +63,11 @@
                                 <h4 class="sm-accor-title text-white">A kitchen display system to manage orders seamlessly from any location.</h4>
                             </div>
                         </div>
+                        <div class="gallery-slider-layer">
+                            <div class="gallery-slider-layer-inner" style="background-image: url('./assets/images/gallery-slider-img-1.png');">
+                                <h4 class="sm-accor-title text-white">Portable POS for serving more tables or speeding up lines.</h4>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -242,7 +247,7 @@
             <div class="row justify-content-center">
                 <div class="col-12 col-lg-12 col-xl-10 col-xxl-8">
                     <div class="services-inner">
-                        <div class="row">
+                        <div class="row justify-content-center">
                             <div class="col-12 col-md-6 col-lg-4">
                                 <div class="services-box text-center" data-aos="fade-up-right" data-aos-duration="1500">
                                     <img class="img-fluid" src="./assets/images/service-icon-1.png" alt="">

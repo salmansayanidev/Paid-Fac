@@ -7,23 +7,74 @@
     color: white;
     line-height: normal;
 }
+
 .contact-list .lg-para a {
     color: white;
 }
+
 .contact-list .lg-para span {
     font-size: 2rem;
 }
+
 .contact-list-item {
     display: flex;
     justify-content: start;
     gap: 10px;
     margin-bottom: 30px;
 }
+
 .contact-list-item:last-child {
     margin-bottom: 0;
 }
+
 .contact-icon {
     width: 24px;
     height: 24px;
     margin-top: 5px;
+}
+
+@media (max-width: 1600px) {
+    .contact-us-banner .restaurants-POS-content-box {
+        padding: 54px 40px;
+    }
+}
+
+@media (max-width: 1399px) {
+    .contact-us-banner .restaurants-POS-content-box {
+        padding: 30px 20px;
+    }
+
+    .contact-list .lg-para span {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 1199px) {
+    .contact-list-item {
+        margin-bottom: 20px;
+    }
+
+    .contact-list .lg-para span {
+        font-size: 1.4rem;
+    }
+
+    .contact-icon {
+        width: 20px;
+        height: 20px;
+        margin-top: 4px;
+    }
+
+    .contact-us-banner {
+        padding: 60px 0 20px;
+    }
+}
+
+@media (max-width: 991px) {
+    .contact-us-banner {
+        padding: 50px 0 20px;
+    }
+
+    .pricing-bnner-content {
+        text-align: center;
+    }
 }
