@@ -143,15 +143,18 @@ ul {
 }
 
 .primary-btn:hover {
-  background-color: white !important;
-  color: var(--text-color) !important;
-  box-shadow: inset 0 0 15px 0 #000000b3;
+  background-color: #EC5569 !important;
 }
 
 .primary-btn.btn-2 {
   font-size: 1.4rem;
   padding: 9.5px 25px;
   border-radius: 15px 15px;
+}
+
+.build-your-pos-text-area .primary-btn.btn-2:hover {
+  color: white;
+  border-color: transparent;
 }
 
 .banner-title,
@@ -241,9 +244,10 @@ ul {
   padding: 90px 0;
   background-image: url('../images/Rectangle\ 8.png');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   position: relative;
+  background-attachment: fixed;
 }
 
 .build-your-pos::before {
@@ -361,7 +365,7 @@ ul {
 
 .get-started-cta:hover,
 .show-more-btn:hover {
-  gap: 18px;
+  color: #EC5569;
 }
 
 .gallery-slider-layer-inner.crafted-enhance-hospitality-box .sec-sm-title {
@@ -598,6 +602,11 @@ ul {
 
 .pricing-main .row .col-12.col-md-6.col-lg-4:first-child .pricing-box {
   border-radius: 50px 0 0 0;
+}
+
+.pricing-main .row .col-12.col-md-6.col-lg-4:nth-child(2) .pricing-box {
+  border-right: 1px solid #CACACA;
+  border-left: 1px solid #CACACA;
 }
 
 .pricing-main .row .col-12.col-md-6.col-lg-4:nth-child(3) .pricing-box {

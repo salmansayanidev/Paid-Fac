@@ -4,13 +4,14 @@
 <main>
 
     <!-- home banner start -->
-    <section class="home-banner" data-aos="fade-up" data-aos-duration="1000">
+    <section class="home-banner">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12">
                     <div class="banner-area">
-                        <video class="banner-video" muted autoplay="true" loop="true"
-                            src="./assets/images/banner-video.mp4"></video>
+                        <div class="banner-video-area">
+                            <video class="banner-video" muted autoplay="true" loop="true" src="./assets/images/banner-video.mp4"></video>
+                        </div>
                         <div class="banner-text">
                             <h1 class="banner-title mb-20px">Revolutionize your business with a powerful POS system
                                 that does it all!</h1>
@@ -37,11 +38,33 @@
                 <div class="col-12">
                     <div class="custom-pos-system-top text-center" data-aos="fade-right" data-aos-duration="1500">
                         <h2 class="section-title mb-30px">Create your custom POS system</h2>
-                        <p class="lg-para">select your plan, devices, and accessories in just a few simple steps.
-                        </p>
+                        <p class="lg-para">select your plan, devices, and accessories in just a few simple steps.</p>
                     </div>
+                </div>
+                <!-- Your Existing HTML -->
+                <div class="col-12">
+                    <div class="cus-pos-img-area position-relative">
+                        <div class="row">
+                            <div class="col-3">
+                                <div class="left-img">
+                                    <img class="cus-pos-img-1" src="./assets/images/pos-3.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="text-center position-relative z-1">
+                                    <img class="cus-pos-img-2 img-fluid" src="./assets/images/pos-2.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="right-img">
+                                    <img class="cus-pos-img-3" src="./assets/images/pos-1.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
                     <div class="custom-pos-system-bottom" data-aos="zoom-in-up" data-aos-duration="1500">
-                        <img class="img-fluid custom-pos-img" src="./assets/images/custom-pos-sec-img.png" alt="">
                         <a class="get-started-cta mb-20px" href="#">
                             <span>Get started</span>
                             <i class="fa-solid fa-arrow-right"></i>

@@ -74,3 +74,106 @@ $('.slider-nav').slick({
         }
     },]
 });
+
+
+
+// scroll images js 
+
+// banner scroll js
+
+gsap.matchMedia().add("(min-width: 992px)", () => {
+    gsap.to(".banner-video-area", {
+        yPercent: -200,
+        ease: "none",
+        scrollTrigger: {
+            trigger: ".home-banner",
+            start: "top top",
+            end: "80% top",
+            scrub: 1
+        }
+    });
+
+    gsap.set(".banner-text", {
+        transform: "translateY(-50%)",
+        opacity: 1,
+        color: "#fff"
+    });
+
+    gsap.to(".banner-text", {
+        opacity: 1,
+        scrollTrigger: {
+            trigger: ".home-banner",
+            start: "top 50%",
+            end: "bottom top",
+            scrub: 1
+        }
+    });
+
+    gsap.to(".banner-text", {
+        opacity: 1,
+        y: -700,
+        scrollTrigger: {
+            trigger: ".home-banner",
+            start: "bottom 80%",
+            end: "90% top",
+            scrub: 1
+        }
+    });
+
+    gsap.to(".banner-text .banner-title", {
+        color: "#000", // Changes to Black
+        scrollTrigger: {
+            trigger: ".home-banner",
+            start: "50% 50%",
+            end: "bottom 20%",
+            scrub: 1
+        }
+    });
+});
+
+
+
+// custom POS scroll js
+
+gsap.registerPlugin(ScrollTrigger);
+
+gsap.set(".cus-pos-img-area", {
+    xPercent: 0,
+    yPercent: 0,
+    scale: 2,
+    opacity: 0,
+}),
+    gsap.to(".cus-pos-img-area", {
+        scale: 1,
+        opacity: 1,
+        ease: "power1.inOut",
+        scrollTrigger: {
+            trigger: ".cus-pos-img-area",
+            start: "top 90%",
+            end: "top 0",
+            scrub: 1,
+            scale: true
+        }
+    });
+
+gsap.to(".left-img img", {
+    rotateY: 900,
+    ease: "power2.out",
+    scrollTrigger: {
+        trigger: "body",
+        start: "top top",
+        end: "bottom bottom",
+        scrub: 1,
+    }
+});
+
+gsap.to(".right-img img", {
+    rotateY: 900,
+    ease: "power2.out",
+    scrollTrigger: {
+        trigger: "body",
+        start: "top top",
+        end: "bottom bottom",
+        scrub: 1,
+    }
+});

@@ -69,13 +69,12 @@ $(document).ready(function () {
     });
 });
 
-// faq show more js 
+// faq show more js
 
-document?.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", function () {
     const faqs = document.querySelectorAll(".faq-area");
     const showMoreBtn = document.querySelector(".faq-show-more");
     const initialVisible = 8;
-
 
     faqs.forEach((faq, index) => {
         if (index < initialVisible) {
@@ -83,12 +82,14 @@ document?.addEventListener("DOMContentLoaded", function () {
         }
     });
 
-    if (faqs.length <= initialVisible) {
-        showMoreBtn.style.display = "none";
-    }
+    if (showMoreBtn) {
+        if (faqs.length <= initialVisible) {
+            showMoreBtn.style.display = "none";
+        }
 
-    showMoreBtn.addEventListener("click", function () {
-        faqs.forEach((faq) => faq.classList.add("visible"));
-        showMoreBtn.style.display = "none";
-    });
+        showMoreBtn.addEventListener("click", function () {
+            faqs.forEach((faq) => faq.classList.add("visible"));
+            showMoreBtn.style.display = "none";
+        });
+    }
 });

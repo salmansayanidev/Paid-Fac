@@ -1,5 +1,5 @@
 .home-banner {
-    padding: 0 99px 66px;
+    padding: 0 99px 0;
 }
 
 .banner-video {
@@ -14,7 +14,12 @@
     position: relative;
 }
 
-.banner-area::before {
+.banner-video-area {
+    position: relative;
+    height: 100%;
+}
+
+.banner-video-area::before {
     content: "";
     position: absolute;
     top: 0;
@@ -25,12 +30,26 @@
     border-radius: 0px 0px 25px 25px;
 }
 
-.banner-text {
+/* .banner-area::before {
+    content: "";
     position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(102.45deg, rgba(0, 0, 0, 0.5) 44.73%, rgba(154, 154, 154, 0) 78.87%);
+    border-radius: 0px 0px 25px 25px;
+} */
+
+.banner-text {
+    position: fixed;
     top: 50%;
-    transform: translateY(-50%);
-    left: 130px;
-    width: 55%;
+    left: 12vw;
+    /* position: absolute; */
+    /* top: 50%; */
+    /* transform: translateY(-50%); */
+    /* left: 130px; */
+    width: 52%;
 }
 
 .scroll-btm-btn {
@@ -191,15 +210,47 @@
     top: -90px;
 }
 
+.cus-pos-img-area {
+    margin-top: 80px;
+}
+
+.cus-pos-img-3 {
+    position: absolute;
+    bottom: 0;
+    right: 90px;
+}
+
+.cus-pos-img-1 {
+    position: absolute;
+    bottom: 0;
+    left: 90px;
+}
+
+
+.left-img img,
+.right-img img {
+    transform: rotateY(0);
+    transition: transform 0.5s ease-out;
+}
+
+
 
 @media (max-width: 1600px) {
     .home-banner {
         padding: 0 40px 50px;
     }
 
+    .cus-pos-img-1 {
+        left: 10px;
+    }
+
+    .cus-pos-img-3 {
+        right: 10px;
+    }
+
     .banner-text {
-        left: 100px;
-        width: 67%;
+        left: 9vw;
+        width: 53%;
     }
 
     .banner-area {
@@ -301,21 +352,35 @@
     }
 
     .banner-text {
-        left: 3vw;
+        left: 6.3vw;
+        width: 60%;
     }
 }
 
 @media (max-width: 1440px) {
 
     .banner-area {
-        height: 700px;
+        height: 650px;
     }
 
 }
 
 @media (max-width: 1399px) {
     .banner-text {
-        left: 6vw;
+        left: 9.5vw;
+        width: 69%;
+    }
+
+    .cus-pos-img-1 {
+        left: 20px;
+        max-width: 320px;
+        width: 100%;
+    }
+
+    .cus-pos-img-3 {
+        right: 20px;
+        max-width: 340px;
+        width: 100%;
     }
 
     .pro-bg-circle {
@@ -392,7 +457,7 @@
     }
 
     .banner-text {
-        left: 3vw;
+        left: 6vw;
     }
 
     .powerful-pos-tabing-list {
@@ -416,6 +481,16 @@
 }
 
 @media (max-width: 1199px) {
+    .cus-pos-img-1 {
+        left: 10px;
+        max-width: 280px;
+    }
+
+    .cus-pos-img-3 {
+        right: 10px;
+        max-width: 300px;
+    }
+
     .banner-text {
         left: 7vw;
     }
@@ -425,7 +500,7 @@
     }
 
     .banner-area {
-        height: 550px;
+        height: 500px;
     }
 
     .get-started-cta {
@@ -447,7 +522,7 @@
     }
 
     .banner-text {
-        left: 3vw;
+        left: 4vw;
         width: 80%;
     }
 
@@ -499,11 +574,20 @@
 }
 
 @media (max-width: 991px) {
+    .cus-pos-img-1 {
+        max-width: 220px;
+    }
+
+    .cus-pos-img-3 {
+        max-width: 240px;
+    }
+
     .banner-text {
         left: 50%;
         width: 95%;
         text-align: center;
         transform: translate(-50%, -50%);
+        position: absolute;
     }
 
     .banner-area::before {
@@ -584,7 +668,25 @@
     }
 }
 
+@media (max-width: 767px) {
+    .cus-pos-img-1 {
+        max-width: 150px;
+    }
+
+    .cus-pos-img-3 {
+        max-width: 160px;
+    }
+}
+
 @media (max-width: 575px) {
+    .cus-pos-img-1 {
+        left: 0px;
+    }
+
+    .cus-pos-img-3 {
+        right: 0;
+    }
+
     .home-banner .banner-title {
         font-size: 6vw;
         font-weight: 400;
@@ -606,8 +708,33 @@
     }
 }
 
+@media (max-width: 480px) {
+
+    .cus-pos-img-1 {
+        max-width: 130px;
+    }
+}
+
 @media (max-width: 414px) {
     .home-banner .banner-title {
         font-size: 7vw;
+    }
+
+    .cus-pos-img-1 {
+        max-width: 110px;
+    }
+
+    .cus-pos-img-3 {
+        max-width: 110px;
+    }
+}
+
+@media (max-width: 375px) {
+    .cus-pos-img-1 {
+        max-width: 100px;
+    }
+
+    .cus-pos-img-3 {
+        max-width: 110px;
     }
 }
