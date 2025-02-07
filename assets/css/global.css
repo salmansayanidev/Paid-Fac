@@ -129,6 +129,10 @@ ul {
   border-color: var(--text-color) !important;
 }
 
+.width-fit-content {
+  width: fit-content;
+}
+
 .primary-btn {
   font-weight: 600;
   font-size: 1rem;
@@ -242,9 +246,9 @@ ul {
 
 .build-your-pos {
   padding: 90px 0;
-  background-image: url('../images/Rectangle\ 8.png');
+  background-image: url('../images/build-your-pos-bg.png');
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   position: relative;
   background-attachment: fixed;
@@ -667,6 +671,14 @@ ul {
   width: fit-content;
 }
 
+.crafted-enhance-hospitality {
+  padding: 92px 0 130px;
+}
+
+.crafted-enhance-hospitality-top {
+  margin-bottom: 70px;
+}
+
 @media (max-width: 1600px) {
   .pricing-radio-area {
     padding: 15px 20px;
@@ -744,6 +756,14 @@ ul {
 }
 
 @media (max-width: 1399px) {
+  .crafted-enhance-hospitality {
+    padding: 70px 0 100px;
+  }
+
+  .crafted-enhance-hospitality-top {
+    margin-bottom: 50px;
+  }
+
   .pricing-radio-area {
     padding: 15px 10px;
   }
@@ -842,6 +862,10 @@ ul {
 }
 
 @media (max-width: 1199px) {
+  .crafted-enhance-hospitality-box {
+    padding: 15px 10px;
+  }
+
   .cus-pos-in-min-img-area {
     height: 380px;
   }
@@ -951,6 +975,15 @@ ul {
 }
 
 @media (max-width: 991px) {
+  .crafted-enhance-hospitality-box {
+    margin-bottom: 20px;
+    padding: 20px 30px;
+  }
+
+  .crafted-enhance-hospitality {
+    padding: 50px 0 60px;
+  }
+
   .pricing-box:hover {
     border-radius: 25px !important;
     transform: scale(1);
@@ -1133,6 +1166,9 @@ ul {
 }
 
 @media (max-width: 480px) {
+  .crafted-enhance-hospitality-box {
+    padding: 15px 20px;
+  }
 
   .banner-title,
   .section-title {
@@ -1147,6 +1183,9 @@ ul {
 }
 
 @media (max-width: 414px) {
+  .crafted-enhance-hospitality {
+    padding: 40px 0 50px;
+  }
 
   .banner-title,
   .section-title {

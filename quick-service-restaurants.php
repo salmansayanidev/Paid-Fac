@@ -1,7 +1,7 @@
 <?php include "./includes/header.php"; ?>
 <link rel="stylesheet" href="./assets/css/full-service-restaurants.css">
 
-<main>
+<main class="quick-service-restaurants-main">
     <!-- full service restaurants banner start -->
     <section class="full-service-restaurants-banner">
         <div class="container">
@@ -227,6 +227,30 @@
         </div>
     </section>
     <!-- pricing section end -->
+
+    <!-- crafted enhance hospitality start -->
+    <section class="crafted-enhance-hospitality">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="crafted-enhance-hospitality-top text-center" data-aos="zoom-in" data-aos-duration="1500">
+                        <h2 class="section-title mb-30px">Crafted to enhance your hospitality</h2>
+                        <p class="lg-para">See how PadiFac empowers every restaurant concept</p>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="gallery-slider-layer-inner crafted-enhance-hospitality-box" data-aos="fade-left" data-aos-duration="1500" style="background-image: url('./assets/images/quick-ser-crafted-enhance-bg.png');">
+                        <h4 class="sec-sm-title text-white">Full service restaurant</h4>
+                        <a class="get-started-cta justify-content-start text-white" href="full-service-restaurants.php">
+                            <span>Learn more</span>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- crafted enhance hospitality end -->
 
     <!-- FAQs section start -->
     <section class="faqs-section">

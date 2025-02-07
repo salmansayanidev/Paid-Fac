@@ -1,11 +1,27 @@
 .header {
   padding: 20px 0;
   border-bottom: 1px solid #cacaca;
-  position: sticky;
-  top: 0;
-  left: 0;
-  z-index: 1;
   background-color: white;
+  position: relative;
+  z-index: 11;
+}
+
+header.header.fixed {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  animation: slideDown 0.35s ease-out;
+  z-index: 999;
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-100%);
+  }
+
+  to {
+    transform: translateY(0);
+  }
 }
 
 .header-left-area {

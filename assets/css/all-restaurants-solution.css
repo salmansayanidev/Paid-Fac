@@ -31,13 +31,6 @@
     margin-top: 20px;
 }
 
-.crafted-enhance-hospitality {
-    padding: 92px 0 130px;
-}
-
-.crafted-enhance-hospitality-top {
-    margin-bottom: 70px;
-}
 
 .services-section {
     padding: 59px 0;
@@ -83,14 +76,6 @@
 @media (max-width: 1399px) {
     .gallery-slider-layer {
         margin: 0 9px;
-    }
-
-    .crafted-enhance-hospitality-top {
-        margin-bottom: 50px;
-    }
-
-    .crafted-enhance-hospitality {
-        padding: 70px 0 100px;
     }
 
 }
@@ -155,14 +140,6 @@
         padding: 50px 0;
     }
 
-    .crafted-enhance-hospitality {
-        padding: 50px 0 60px;
-    }
-
-    .crafted-enhance-hospitality-box {
-        margin-bottom: 20px;
-        padding: 20px 30px;
-    }
 
     .services-box {
         margin-bottom: 20px;
@@ -251,9 +228,6 @@
         line-height: 40px;
     }
 
-    .crafted-enhance-hospitality {
-        padding: 40px 0 50px;
-    }
 }
 
 @media (max-width: 375px) {

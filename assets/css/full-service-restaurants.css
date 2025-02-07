@@ -34,6 +34,15 @@
     left: -70px;
 }
 
+.full-service-restaurants-main .crafted-enhance-hospitality,
+.quick-service-restaurants-main .crafted-enhance-hospitality {
+    padding-bottom: 0 !important;
+}
+
+.full-service-restaurants-main .crafted-enhance-hospitality-box,
+.quick-service-restaurants-main .crafted-enhance-hospitality-box {
+    padding-left: 40px;
+}
 
 @media (max-width: 1399px) {
     .full-service-restaurants-banner {
@@ -100,6 +109,11 @@
 }
 
 @media (max-width: 991px) {
+    .full-service-restaurants-main .crafted-enhance-hospitality-box,
+    .quick-service-restaurants-main .crafted-enhance-hospitality-box {
+        padding-left: 20px;
+        background-position: left;
+    }
 
     .full-ser-restaurants-bnner-content {
         text-align: center;
