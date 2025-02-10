@@ -55,73 +55,84 @@
                                         </ul>
                                     </li>
                                     <li class="nav-menu-item">
-                                        <a class="nav-menu-link" href="#">
+                                        <a class="nav-menu-link" href="javascript:void(0);">
                                             <span>Services</span>
-                                            <!-- <i class="fa-solid fa-angle-down"></i> -->
+                                            <i class="fa-solid fa-angle-down"></i>
                                         </a>
-                                        <!-- <ul class="sub-menu">
+                                        <ul class="sub-menu">
                                             <li class="sub-menu-item">
-                                                <a class="nav-menu-link" href="#">
-                                                    Example One
+                                                <a class="nav-menu-link" href="all-services-business.php">
+                                                    All Services Business
                                                 </a>
                                             </li>
                                             <li class="sub-menu-item">
-                                                <a class="nav-menu-link" href="#">
-                                                    Example Two
+                                                <a class="nav-menu-link" href="personal-services.php">
+                                                    Personal Services
                                                 </a>
                                             </li>
                                             <li class="sub-menu-item">
-                                                <a class="nav-menu-link" href="#">
-                                                    Example Three
+                                                <a class="nav-menu-link" href="professional-services.php">
+                                                    Professional Services
                                                 </a>
                                             </li>
-                                        </ul> -->
+                                            <li class="sub-menu-item">
+                                                <a class="nav-menu-link" href="home-&-field-services.php">
+                                                    Home & Field Services 
+                                                </a>
+                                            </li>
+                                        </ul>
                                     </li>
                                     <li class="nav-menu-item">
-                                        <a class="nav-menu-link" href="#">
+                                        <a class="nav-menu-link" href="javascript:void(0);">
                                             <span>Retail</span>
-                                            <!-- <i class="fa-solid fa-angle-down"></i> -->
+                                            <i class="fa-solid fa-angle-down"></i>
                                         </a>
-                                        <!-- <ul class="sub-menu">
+                                        <ul class="sub-menu">
                                             <li class="sub-menu-item">
-                                                <a class="nav-menu-link" href="#">
-                                                    Example One
+                                                <a class="nav-menu-link" href="all-retail-stores.php">
+                                                    All Reatail Stores
                                                 </a>
                                             </li>
                                             <li class="sub-menu-item">
-                                                <a class="nav-menu-link" href="#">
-                                                    Example Two
+                                                <a class="nav-menu-link" href="boutiques.php">
+                                                    Boutiques
                                                 </a>
                                             </li>
                                             <li class="sub-menu-item">
-                                                <a class="nav-menu-link" href="#">
-                                                    Example Three
+                                                <a class="nav-menu-link" href="jewelry-stores.php">
+                                                    Jewelry Stores
                                                 </a>
                                             </li>
-                                        </ul> -->
+                                            <li class="sub-menu-item">
+                                                <a class="nav-menu-link" href="book-stores.php">
+                                                    Book Stores
+                                                </a>
+                                            </li>
+                                        </ul>
                                     </li>
                                     <li class="nav-menu-item">
-                                        <a class="nav-menu-link" href="products.php">
+                                        <a class="nav-menu-link" href="javascript:void(0);">
                                             <span>Products</span>
-                                            <!-- <i class="fa-solid fa-angle-down"></i> -->
+                                            <i class="fa-solid fa-angle-down"></i>
                                         </a>
-                                        <!-- <ul class="sub-menu">
+                                        <ul class="sub-menu">
                                             <li class="sub-menu-item">
-                                                <a class="nav-menu-link" href="#">
-                                                    Example One
+                                                <a class="nav-menu-link" href="hardware.php">
+                                                    Hardware
                                                 </a>
                                             </li>
                                             <li class="sub-menu-item">
-                                                <a class="nav-menu-link" href="#">
-                                                    Example Two
+                                                <a class="nav-menu-link" href="point-of-sale.php">
+                                                    Point of Sale
                                                 </a>
                                             </li>
                                             <li class="sub-menu-item">
-                                                <a class="nav-menu-link" href="#">
-                                                    Example Three
+                                                <a class="nav-menu-link" href="payments.php">
+                                                    Payments
                                                 </a>
                                             </li>
-                                        </ul> -->
+                                            
+                                        </ul>
                                     </li>
                                     <li class="nav-menu-item">
                                         <a class="nav-menu-link" href="#">

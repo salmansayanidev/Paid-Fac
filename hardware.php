@@ -10,6 +10,7 @@
                     <div class="pricing-bnner-content">
                         <nav aria-label="breadcrumb" class="breadcrumb-area">
                             <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="#">Products</a></li>
                                 <li class="breadcrumb-item active" aria-current="page">Hardware</li>
                             </ol>
                         </nav>
@@ -37,7 +38,7 @@
                         <p class="lg-para">Select your plan, devices, and accessories.</p>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4"  data-aos="zoom-in-up" data-aos-duration="1500">
+                <div class="col-12 col-md-6 col-lg-4" data-aos="zoom-in-up" data-aos-duration="1500">
                     <div class="flexible-hardware-option-box">
                         <div class="cus-pos-in-min-img-area">
                             <img class="img-fluid" src="./assets/images/paidfac-portable.png" alt="">

@@ -1,9 +1,9 @@
 <?php include "./includes/header.php" ?>
 <link rel="stylesheet" href="./assets/css/all-restaurants-solution.css">
 
-<main>
 
-    <!-- all restaurants solution banner start -->
+<main>
+    <!-- all services business banner section start -->
     <section class="all-restaurants-solution">
         <div class="container">
             <div class="row">
@@ -11,12 +11,12 @@
                     <div class="all-restaurants-solution-content" data-aos="fade-down" data-aos-duration="1500">
                         <nav aria-label="breadcrumb" class="breadcrumb-area">
                             <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="#">Restaurants</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">All restaurants solutions</li>
+                                <li class="breadcrumb-item"><a href="#">Services</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">All service businesses</li>
                             </ol>
                         </nav>
-                        <h2 class="banner-title text-dark-gray">Create an exceptional guest experience</h2>
-                        <p class="lg-para">Boost efficiency, reduce costs, and streamline your operations with the powerful PadiFac restaurant POS system</p>
+                        <h2 class="banner-title text-dark-gray">The system that sets your services apart</h2>
+                        <p class="lg-para">Keep everything running smoothly with PaidFac.</p>
                         <div class="banner-cta">
                             <a href="#" class="primary-btn btn-2">
                                 Get started
@@ -30,7 +30,7 @@
             </div>
         </div>
     </section>
-    <!-- all restaurants solution banner end -->
+    <!-- all services business banner section end -->
 
     <!-- gallery slider section start -->
     <section class="gallery-slider-section">
@@ -39,53 +39,53 @@
                 <div class="col-12">
                     <div class="gallery-slider" data-aos="zoom-in-up" data-aos-duration="1500">
                         <div class="gallery-slider-layer">
-                            <div class="gallery-slider-layer-inner" style="background-image: url('./assets/images/gallery-slider-img-1.png');">
-                                <h4 class="sm-accor-title text-white">Portable POS for serving more tables or speeding up lines.</h4>
+                            <div class="gallery-slider-layer-inner" style="background-image: url('./assets/images/all-services-bnner-img-1.png');">
+                                <h4 class="sm-accor-title text-white">Schedule and manage appointments.</h4>
                             </div>
                         </div>
                         <div class="gallery-slider-layer">
-                            <div class="gallery-slider-layer-inner" style="background-image: url('./assets/images/gallery-slider-img-2.png');">
-                                <h4 class="sm-accor-title text-white">A robust restaurant POS system with integrated payment processing.</h4>
-                            </div>
-                        </div>
-                        <div class="gallery-slider-layer">
-                            <div class="gallery-slider-sb-layer">
-                                <div class="gallery-slider-layer-inner" style="background-image: url('./assets/images/gallery-slider-img-3.png');">
-                                    <h4 class="sm-accor-title text-white">Effortless Scanning, Seamless Sales.</h4>
-                                </div>
-                                <div class="gallery-slider-layer-inner" style="background-image: url('./assets/images/gallery-slider-img-4.png');">
-                                    <h4 class="sm-accor-title text-white">Easily accept payments with Tap to Pay.</h4>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="gallery-slider-layer">
-                            <div class="gallery-slider-layer-inner" style="background-image: url('./assets/images/gallery-slider-img-5.png');">
-                                <h4 class="sm-accor-title text-white">A kitchen display system to manage orders seamlessly from any location.</h4>
-                            </div>
-                        </div>
-                        <div class="gallery-slider-layer">
-                            <div class="gallery-slider-layer-inner" style="background-image: url('./assets/images/gallery-slider-img-1.png');">
-                                <h4 class="sm-accor-title text-white">Portable POS for serving more tables or speeding up lines.</h4>
-                            </div>
-                        </div>
-                        <div class="gallery-slider-layer">
-                            <div class="gallery-slider-layer-inner" style="background-image: url('./assets/images/gallery-slider-img-2.png');">
-                                <h4 class="sm-accor-title text-white">A robust restaurant POS system with integrated payment processing.</h4>
+                            <div class="gallery-slider-layer-inner" style="background-image: url('./assets/images/all-services-bnner-img-2.png');">
+                                <h4 class="sm-accor-title text-white">Expand your reach, attract more customers, and grow your business online with ease.</h4>
                             </div>
                         </div>
                         <div class="gallery-slider-layer">
                             <div class="gallery-slider-sb-layer">
-                                <div class="gallery-slider-layer-inner" style="background-image: url('./assets/images/gallery-slider-img-3.png');">
-                                    <h4 class="sm-accor-title text-white">Effortless Scanning, Seamless Sales.</h4>
+                                <div class="gallery-slider-layer-inner" style="background-image: url('./assets/images/all-services-bnner-img-3.png');">
+                                    <h4 class="sm-accor-title text-white">Create invoices quickly and efficiently.</h4>
                                 </div>
-                                <div class="gallery-slider-layer-inner" style="background-image: url('./assets/images/gallery-slider-img-4.png');">
-                                    <h4 class="sm-accor-title text-white">Easily accept payments with Tap to Pay.</h4>
+                                <div class="gallery-slider-layer-inner" style="background-image: url('./assets/images/all-services-bnner-img-4.png');">
+                                    <h4 class="sm-accor-title text-white">Automate and schedule recurring payments.</h4>
                                 </div>
                             </div>
                         </div>
                         <div class="gallery-slider-layer">
-                            <div class="gallery-slider-layer-inner" style="background-image: url('./assets/images/gallery-slider-img-5.png');">
-                                <h4 class="sm-accor-title text-white">A kitchen display system to manage orders seamlessly from any location.</h4>
+                            <div class="gallery-slider-layer-inner" style="background-image: url('./assets/images/all-services-bnner-img-5.png');">
+                                <h4 class="sm-accor-title text-white">Foster strong customer relationships and build lasting loyalty.</h4>
+                            </div>
+                        </div>
+                        <div class="gallery-slider-layer">
+                            <div class="gallery-slider-layer-inner" style="background-image: url('./assets/images/all-services-bnner-img-1.png');">
+                                <h4 class="sm-accor-title text-white">Schedule and manage appointments.</h4>
+                            </div>
+                        </div>
+                        <div class="gallery-slider-layer">
+                            <div class="gallery-slider-layer-inner" style="background-image: url('./assets/images/all-services-bnner-img-2.png');">
+                                <h4 class="sm-accor-title text-white">Expand your reach, attract more customers, and grow your business online with ease.</h4>
+                            </div>
+                        </div>
+                        <div class="gallery-slider-layer">
+                            <div class="gallery-slider-sb-layer">
+                                <div class="gallery-slider-layer-inner" style="background-image: url('./assets/images/all-services-bnner-img-3.png');">
+                                    <h4 class="sm-accor-title text-white">Create invoices quickly and efficiently.</h4>
+                                </div>
+                                <div class="gallery-slider-layer-inner" style="background-image: url('./assets/images/all-services-bnner-img-4.png');">
+                                    <h4 class="sm-accor-title text-white">Automate and schedule recurring payments.</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gallery-slider-layer">
+                            <div class="gallery-slider-layer-inner" style="background-image: url('./assets/images/all-services-bnner-img-5.png');">
+                                <h4 class="sm-accor-title text-white">Foster strong customer relationships and build lasting loyalty.</h4>
                             </div>
                         </div>
                     </div>
@@ -100,7 +100,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12" data-aos="fade-right" data-aos-duration="1000">
-                    <h2 class="section-title mb-30px text-center">What is a PadiFac restaurant POS?</h2>
+                    <h2 class="section-title mb-30px text-center">Keep everything on track with PadiFac</h2>
                 </div>
                 <div class="col-12">
                     <div class="restaurants-pos-main" data-aos="zoom-in" data-aos-duration="1500">
@@ -116,7 +116,7 @@
                             </div>
                             <div class="col-12 col-lg-9">
                                 <div class="restaurants-POS-img-area">
-                                    <img class="img-fluid" src="./assets/images/restaurant-pos-img.png" alt="">
+                                    <img class="img-fluid" src="./assets/images/services-pos-img.png" alt="">
                                 </div>
                             </div>
                         </div>
@@ -238,19 +238,28 @@
                         <p class="lg-para">See how PadiFac empowers every restaurant concept</p>
                     </div>
                 </div>
-                <div class="col-12 col-lg-6">
-                    <div class="gallery-slider-layer-inner crafted-enhance-hospitality-box" data-aos="fade-right" data-aos-duration="1500" style="background-image: url('./assets/images/crafted-enhance-img-1.png');">
-                        <h4 class="sec-sm-title text-white">Full service restaurant</h4>
-                        <a class="get-started-cta justify-content-start text-white" href="#">
+                <div class="col-12 col-lg-4">
+                    <div class="gallery-slider-layer-inner crafted-enhance-hospitality-box" data-aos="fade-right" data-aos-duration="1500" style="background-image: url('./assets/images/crafted-enhance-img-3.png');">
+                        <h4 class="sec-sm-title text-white">Personal services</h4>
+                        <a class="get-started-cta justify-content-start text-white" href="personal-services.php">
                             <span>Learn more</span>
                             <i class="fa-solid fa-arrow-right"></i>
                         </a>
                     </div>
                 </div>
-                <div class="col-12 col-lg-6">
-                    <div class="gallery-slider-layer-inner crafted-enhance-hospitality-box" data-aos="fade-left" data-aos-duration="1500" style="background-image: url('./assets/images/crafted-enhance-img-2.png');">
-                        <h4 class="sec-sm-title text-white">Quick service restaurant</h4>
-                        <a class="get-started-cta justify-content-start text-white" href="#">
+                <div class="col-12 col-lg-4">
+                    <div class="gallery-slider-layer-inner crafted-enhance-hospitality-box" data-aos="fade-up" data-aos-duration="1500" style="background-image: url('./assets/images/crafted-enhance-img-4.png');">
+                        <h4 class="sec-sm-title text-white">Professional services</h4>
+                        <a class="get-started-cta justify-content-start text-white" href="professional-services.php">
+                            <span>Learn more</span>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="gallery-slider-layer-inner crafted-enhance-hospitality-box" data-aos="fade-left" data-aos-duration="1500" style="background-image: url('./assets/images/crafted-enhance-img-5.png');">
+                        <h4 class="sec-sm-title text-white">Home & field services</h4>
+                        <a class="get-started-cta justify-content-start text-white" href="home-&-field-services.php">
                             <span>Learn more</span>
                             <i class="fa-solid fa-arrow-right"></i>
                         </a>
@@ -403,8 +412,9 @@
     <!-- build your pos start -->
     <?php include "./includes/build-your-pos-system.php" ?>
     <!-- build your pos end -->
-
 </main>
 
+
+
 <?php include "./includes/footer.php" ?>
-<script src="./assets/js/all-restaurants-solutions.js"></script>
+<script src="./assets/js/all-services-business.js"></script>

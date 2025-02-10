@@ -35,7 +35,13 @@
 }
 
 .full-service-restaurants-main .crafted-enhance-hospitality,
-.quick-service-restaurants-main .crafted-enhance-hospitality {
+.quick-service-restaurants-main .crafted-enhance-hospitality,
+.personal-services-main .crafted-enhance-hospitality,
+.professional-services-main .crafted-enhance-hospitality,
+.home-field-services-main .crafted-enhance-hospitality,
+.boutiques-main .crafted-enhance-hospitality,
+.jewelry-store-main .crafted-enhance-hospitality,
+.book-stores-main .crafted-enhance-hospitality {
     padding-bottom: 0 !important;
 }
 
