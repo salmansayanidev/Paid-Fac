@@ -1,0 +1,94 @@
+.tracking-reporting-banner {
+    padding: 100px 0;
+    min-height: 834px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 99;
+    overflow: hidden;
+}
+
+.track-report-bnner-img {
+    position: absolute;
+    right: 0;
+    width: 56vw;
+    top: 60px;
+    z-index: -1;
+}
+
+/* inventory management css start */
+.inven-management-bnner-img {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    width: 43.125vw;
+    max-width: 828px;
+}
+
+/* inventory management css end */
+
+
+@media (max-width: 1600px) {
+    .tracking-reporting-banner {
+        min-height: 700px;
+    }
+
+    .track-report-bnner-img {
+        right: -3%;
+    }
+
+    .inventory-management-main .tracking-reporting-banner .banner-title {
+        font-size: 5.9rem;
+    }
+}
+
+@media (max-width: 1399px) {
+    .tracking-reporting-banner {
+        min-height: 650px;
+        padding: 80px 0;
+    }
+
+    .inventory-management-main .tracking-reporting-banner .banner-title {
+        font-size: 5.1rem;
+    }
+}
+
+@media (max-width: 1199px) {
+    .tracking-reporting-banner {
+        min-height: 550px;
+    }
+
+    .inventory-management-main .tracking-reporting-banner .banner-title {
+        font-size: 4.3rem;
+    }
+
+    .inven-management-bnner-img {
+        width: 44vw;
+    }
+}
+
+@media (max-width: 991px) {
+    .track-report-bnner-img {
+        position: unset;
+        width: 100%;
+    }
+
+    .tracking-reporting-banner {
+        min-height: unset;
+        padding: 50px 0 0;
+    }
+
+    .inven-management-bnner-img {
+        width: 100%;
+        position: unset;
+        transform: unset;
+        border-radius: 30px;
+    }
+
+    .inventory-management-main .tracking-reporting-banner,
+    .employee-management-main .tracking-reporting-banner {
+        padding: 50px 0;
+    }
+}

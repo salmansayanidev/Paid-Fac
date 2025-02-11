@@ -1,22 +1,23 @@
 <?php include "./includes/header.php"; ?>
 <link rel="stylesheet" href="./assets/css/full-service-restaurants.css">
+<link rel="stylesheet" href="./assets/css/tracking-report.css">
 
 
-<main class="payments-main">
+<main class="employee-management-main">
     <!-- point of sale banner start -->
-    <section class="full-service-restaurants-banner">
+    <section class="tracking-reporting-banner">
         <div class="container">
             <div class="row justify-content-between align-items-center">
-                <div class="col-12 col-lg-6" data-aos="fade-right" data-aos-duration="1500">
+                <div class="col-12 col-lg-7" data-aos="fade-right" data-aos-duration="1500">
                     <div class="full-ser-restaurants-bnner-content">
                         <nav aria-label="breadcrumb" class="breadcrumb-area">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="#">Products</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">Payments</li>
+                                <li class="breadcrumb-item active" aria-current="page">Employee management</li>
                             </ol>
                         </nav>
-                        <h2 class="banner-title text-dark-gray">Accept payments—fast, easy, smart</h2>
-                        <p class="lg-para">Getting paid is better with Paidfac. Accept all major cards, gift cards, and contactless payments anytime, anywhere—with a complete POS system.</p>
+                        <h2 class="banner-title text-dark-gray">Employee management software for your team</h2>
+                        <p class="lg-para">PaidFac’s Your employees drive success. PaidFac employee management software aligns your team and boosts sales, improving efficiency.</p>
                         <div class="banner-cta">
                             <a href="#" class="primary-btn btn-2">
                                 Get started
@@ -27,9 +28,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-lg-6" data-aos="fade-left" data-aos-duration="1500">
+                <div class="col-12 col-lg-5">
                     <div class="full-ser-res-bnner-img">
-                        <img class="img-fluid" src="./assets/images/payment-bnner-img.png" alt="">
+                        <img class="inven-management-bnner-img" src="./assets/images/employee-management-bnner-img.png" alt="">
                     </div>
                 </div>
             </div>
@@ -43,50 +44,39 @@
             <div class="row justify-content-between align-items-center">
                 <div class="col-12 col-lg-6" data-aos="fade-right" data-aos-duration="1500">
                     <div class="available-padifac-account-content">
-                        <h2 class="section-title text-white">More payment options for customers</h2>
+                        <h2 class="section-title text-white">Tools to fuel your business growth</h2>
                         <ul class="available-padifac-account-list p-0">
                             <li class="accordion-item active">
                                 <div class="accordion-area">
                                     <button class="accordion-btn" type="button">
                                         <i class="fa-solid fa-plus accor-icon"></i>
-                                        <span class="accordion-btn-text">Tap</span>
+                                        <span class="accordion-btn-text">Measure Performance</span>
                                     </button>
                                 </div>
                                 <div class="accordion-content">
-                                    <p class="accordion-content-para">Accept contactless payments in-store or on the go with NFC-enabled cards and mobile wallets like Apple Pay®, Google Pay®, and Samsung Pay®.</p>
+                                    <p class="accordion-content-para">Use our employee management software to track top sales and development performers.</p>
                                 </div>
                             </li>
                             <li class="accordion-item">
                                 <div class="accordion-area">
                                     <button class="accordion-btn" type="button">
                                         <i class="fa-solid fa-plus accor-icon"></i>
-                                        <span class="accordion-btn-text">Dip</span>
+                                        <span class="accordion-btn-text">Manage Permissions</span>
                                     </button>
                                 </div>
                                 <div class="accordion-content">
-                                    <p class="accordion-content-para">Accept contactless payments in-store or on the go with NFC-enabled cards and mobile wallets like Apple Pay®, Google Pay®, and Samsung Pay®.</p>
+                                    <p class="accordion-content-para">Use our employee management software to track top sales and development performers.</p>
                                 </div>
                             </li>
                             <li class="accordion-item">
                                 <div class="accordion-area">
                                     <button class="accordion-btn" type="button">
                                         <i class="fa-solid fa-plus accor-icon"></i>
-                                        <span class="accordion-btn-text">Swipe</span>
+                                        <span class="accordion-btn-text">Reward Great Service</span>
                                     </button>
                                 </div>
                                 <div class="accordion-content">
-                                    <p class="accordion-content-para">Accept contactless payments in-store or on the go with NFC-enabled cards and mobile wallets like Apple Pay®, Google Pay®, and Samsung Pay®.</p>
-                                </div>
-                            </li>
-                            <li class="accordion-item">
-                                <div class="accordion-area">
-                                    <button class="accordion-btn" type="button">
-                                        <i class="fa-solid fa-plus accor-icon"></i>
-                                        <span class="accordion-btn-text">Cash and checks, too!</span>
-                                    </button>
-                                </div>
-                                <div class="accordion-content">
-                                    <p class="accordion-content-para">Accept contactless payments in-store or on the go with NFC-enabled cards and mobile wallets like Apple Pay®, Google Pay®, and Samsung Pay®.</p>
+                                    <p class="accordion-content-para">Use our employee management software to track top sales and development performers.</p>
                                 </div>
                             </li>
                         </ul>
@@ -94,13 +84,52 @@
                 </div>
                 <div class="col-12 col-lg-6 col-xl-5" data-aos="fade-left"" data-aos-duration=" 1500">
                     <div class="available-padifac-img-area">
-                        <img class="img-fluid" src="./assets/images/payment-option-right-img.png" alt="">
+                        <img class="img-fluid" src="./assets/images/business-growth-img.png" alt="">
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <!-- available with every padifac account end -->
+
+    <!-- process section start -->
+    <section class="process-section">
+        <div class="container">
+            <div class="row align-items-center mb-50px">
+                <div class="col-12 col-lg-6" data-aos="fade-right" data-aos-duration="1500">
+                    <div class="listing-img-area">
+                        <img class="img-fluid" src="./assets/images/listing-img-1.png" alt="">
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6" data-aos="fade-left" data-aos-duration="1500">
+                    <div class="listing-text-area m-0 paidfac-portable-left-inner">
+                        <h4 class="sec-sm-title">Enjoy a quick, hassle-free setup with our team's support</h4>
+                        <p class="lg-para">Process payments anytime, anywhere using your computer, tablet, or smartphone through Virtual Terminal on your PaidFac Web Dashboard—no POS device required!</p>
+                        <a class="primary-btn btn-2" href="#">
+                            Contact sales
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row align-items-center flex-column-reverse-md">
+                <div class="col-12 col-lg-6" data-aos="fade-right" data-aos-duration="1500">
+                    <div class="listing-text-area m-0 paidfac-portable-left-inner">
+                        <h4 class="sec-sm-title">Process payments anytime, anywhere with Virtual Terminal</h4>
+                        <p class="lg-para">Get personalized, concierge-level setup support from experts who know your business.</p>
+                        <a class="primary-btn btn-2" href="#">
+                            Contact sales
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6" data-aos="fade-left" data-aos-duration="1500">
+                    <div class="listing-img-area">
+                        <img class="img-fluid" src="./assets/images/listing-img-2.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- process section end -->
 
     <!-- paidfac portable start -->
     <section class="paidfac-portable">
@@ -199,44 +228,38 @@
     </section>
     <!-- paidfac portable end -->
 
-    <!-- process section start -->
-    <section class="process-section">
+    <!-- services section start -->
+    <section class="services-section">
         <div class="container">
-            <div class="row align-items-center mb-50px">
-                <div class="col-12 col-lg-6" data-aos="fade-right" data-aos-duration="1500">
-                    <div class="listing-img-area">
-                        <img class="img-fluid" src="./assets/images/listing-img-1.png" alt="">
-                    </div>
-                </div>
-                <div class="col-12 col-lg-6" data-aos="fade-left" data-aos-duration="1500">
-                    <div class="listing-text-area m-0 paidfac-portable-left-inner">
-                        <h4 class="sec-sm-title">Enjoy a quick, hassle-free setup with our team's support</h4>
-                        <p class="lg-para">Process payments anytime, anywhere using your computer, tablet, or smartphone through Virtual Terminal on your PaidFac Web Dashboard—no POS device required!</p>
-                        <a class="primary-btn btn-2" href="#">
-                            Contact sales
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="row align-items-center flex-column-reverse-md">
-                <div class="col-12 col-lg-6" data-aos="fade-right" data-aos-duration="1500">
-                    <div class="listing-text-area m-0 paidfac-portable-left-inner">
-                        <h4 class="sec-sm-title">Process payments anytime, anywhere with Virtual Terminal</h4>
-                        <p class="lg-para">Get personalized, concierge-level setup support from experts who know your business.</p>
-                        <a class="primary-btn btn-2" href="#">
-                            Contact sales
-                        </a>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-6" data-aos="fade-left" data-aos-duration="1500">
-                    <div class="listing-img-area">
-                        <img class="img-fluid" src="./assets/images/listing-img-2.png" alt="">
+            <div class="row justify-content-center">
+                <div class="col-12 col-lg-12 col-xl-10 col-xxl-8">
+                    <div class="services-inner">
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="services-box text-center" data-aos="fade-up-right" data-aos-duration="1500">
+                                    <img class="img-fluid" src="./assets/images/service-icon-1.png" alt="">
+                                    <p class="lg-para">Available anytime, anywhere</p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="services-box text-center" data-aos="zoom-in" data-aos-duration="1500">
+                                    <img class="img-fluid" src="./assets/images/service-icon-2.png" alt="">
+                                    <p class="lg-para">With offline mode, <br> always stay connected</p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="services-box text-center" data-aos="fade-up-left" data-aos-duration="1500">
+                                    <img class="img-fluid" src="./assets/images/service-icon-3.png" alt="">
+                                    <p class="lg-para">24/7 support, always there when you need it.</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- process section end -->
+    <!-- services section end -->
 
     <!-- FAQs section start -->
     <section class="faqs-section">
@@ -361,4 +384,4 @@
 </main>
 
 <?php include "./includes/footer.php" ?>
-<script src="./assets/js/payments.js"></script>
+<script src="./assets/js/inventory-management.js"></script>

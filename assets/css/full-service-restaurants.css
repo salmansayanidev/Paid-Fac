@@ -115,6 +115,7 @@
 }
 
 @media (max-width: 991px) {
+
     .full-service-restaurants-main .crafted-enhance-hospitality-box,
     .quick-service-restaurants-main .crafted-enhance-hospitality-box {
         padding-left: 20px;
@@ -181,8 +182,9 @@
     }
 
     .full-ser-restaurants-bnner-content .banner-title {
-        font-size: 4rem;
-        line-height: 45px;
+        font-size: 3.8rem;
+        line-height: 42px;
+        margin-bottom: 10px;
     }
 }
 

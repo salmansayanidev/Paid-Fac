@@ -3,7 +3,7 @@
   border-bottom: 1px solid #cacaca;
   background-color: white;
   position: relative;
-  z-index: 11;
+  z-index: 999;
 }
 
 header.header.fixed {
@@ -45,7 +45,7 @@ header.header.fixed {
 }
 
 .nav-menu-link:hover {
-  color: var(--theme-color-blue);
+  color: #EC5569 ;
 }
 
 .nav-menu-list {

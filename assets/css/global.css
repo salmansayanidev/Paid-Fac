@@ -725,7 +725,7 @@ ul {
 }
 
 .paidfac-portable {
-  padding: 90px 0 40px;
+  padding: 140px 0 40px;
 }
 
 .paidfac-portable-left-area {
@@ -792,7 +792,13 @@ ul {
   font-size: 2rem;
 }
 
-.point-of-sale-main .paidfac-portable {
+.point-of-sale-main .paidfac-portable,
+.invoicing-main .paidfac-portable,
+.payments-main .paidfac-portable,
+.virtual-terminal-main .paidfac-portable,
+.tracking-reporting-main .paidfac-portable,
+.inventory-management-main .paidfac-portable,
+.employee-management-main .paidfac-portable {
   padding-bottom: 90px;
 }
 
@@ -804,7 +810,99 @@ ul {
 
 /* process section end */
 
+.accordion-btn {
+  font-size: 2.4rem;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 36px;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+  background-color: transparent;
+  border: none;
+}
+
+.accordion-content-para {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 36px;
+  color: #FFFFFF;
+}
+
+.accordion-content {
+  padding-left: 30px;
+}
+
+.accordion-item {
+  margin-bottom: 20px;
+}
+
+.available-padifac-account-list .accordion-item:last-child {
+  margin-bottom: 0;
+}
+
+.invoicing-main .full-service-restaurants-banner {
+  padding: 15px 0 40px;
+}
+
+.invoicing-bnner-img {
+  min-width: 840px;
+  height: auto;
+  right: 20px;
+  position: relative;
+}
+
+/* services section  */
+
+.services-section {
+  padding: 59px 0;
+  background-color: #F6F6F6;
+}
+
+.services-box img {
+  margin-bottom: 20px;
+}
+
+.services-box img {
+  margin-bottom: 10px;
+  width: 80px;
+}
+
+.services-box .lg-para {
+  line-height: normal;
+}
+
+.virtual-terminal-bnner-img {
+  min-width: 938px;
+  position: relative;
+  height: auto;
+  left: -210px;
+  z-index: -1;
+}
+
+.full-ser-restaurants-bnner-content {
+  position: relative;
+  z-index: 9999999999;
+}
+
+
+
+
+
 @media (max-width: 1600px) {
+
+  .virtual-terminal-bnner-img {
+    min-width: 850px;
+    left: -150px;
+  }
+
+  .invoicing-bnner-img {
+    min-width: 760px;
+  }
+
   .slider-nav .slick-list.draggable {
     height: 590px;
   }
@@ -918,6 +1016,33 @@ ul {
 }
 
 @media (max-width: 1399px) {
+  .paidfac-portable {
+    padding: 90px 0 40px;
+  }
+
+  .virtual-terminal-bnner-img {
+    min-width: 750px;
+  }
+
+  .invoicing-bnner-img {
+    min-width: 660px;
+    right: 0;
+  }
+
+  .lg-para {
+    font-size: 2.2rem;
+    line-height: 32px;
+  }
+
+  .accordion-btn {
+    font-size: 2.2rem;
+  }
+
+  .accordion-content-para {
+    font-size: 2.2rem;
+    line-height: 32px;
+  }
+
   .pro-slider-btn-area {
     bottom: 0px;
   }
@@ -927,15 +1052,15 @@ ul {
   }
 
   .pro-bg-circle {
-    width: 570px;
-    height: 570px;
+    width: 530px;
+    height: 530px;
     left: -80px;
     top: -60px;
   }
 
   .available-padifac-account-content .section-title {
-    line-height: 70px;
-    font-size: 5.6rem;
+    line-height: 60px;
+    font-size: 5rem;
   }
 
   .crafted-enhance-hospitality {
@@ -986,6 +1111,7 @@ ul {
 
   .paidfac-portable-left-inner .sec-sm-title {
     font-size: 3rem;
+    line-height: 40px;
   }
 
   .all-restaurants-solution,
@@ -1011,19 +1137,41 @@ ul {
 }
 
 @media (max-width: 1366px) {
-  .pro-bg-circle {
-    width: 540px;
-    height: 540px;
-    left: -50px;
-    top: -50px;
-  }
-
   .slider-nav-layer.slick-slide {
     transform: scale(0.6);
+  }
+
+  .process-section {
+    padding: 70px 0;
+  }
+
+  .pro-bg-circle {
+    width: 500px;
+    height: 500px;
+    left: -60px;
+  }
+
+  .paidfac-product-slider-area .section-title {
+    font-size: 5.6rem;
+  }
+
+  .paidfac-portable-left-inner .sec-sm-title {
+    font-size: 2.8rem;
   }
 }
 
 @media (max-width: 1280px) {
+
+  .point-of-sale-main .paidfac-portable,
+  .invoicing-main .paidfac-portable,
+  .payments-main .paidfac-portable,
+  .virtual-terminal-main .paidfac-portable,
+  .tracking-reporting-main .paidfac-portable,
+  .inventory-management-main .paidfac-portable,
+  .employee-management-main .paidfac-portable {
+    padding-bottom: 60px;
+  }
+
   .slider-nav .slick-list.draggable {
     height: 400px;
   }
@@ -1058,6 +1206,7 @@ ul {
 
   .paidfac-portable-left-inner .sec-sm-title {
     font-size: 2.8rem;
+    line-height: 40px;
   }
 
   .cus-pos-title {
@@ -1071,6 +1220,32 @@ ul {
 }
 
 @media (max-width: 1199px) {
+  .pro-bg-circle {
+    width: 400px;
+    height: 400px;
+  }
+
+  .full-ser-restaurants-bnner-content .lg-para br {
+    display: none;
+  }
+
+  .virtual-terminal-bnner-img {
+    min-width: 650px;
+  }
+
+  .invoicing-bnner-img {
+    min-width: 580px;
+  }
+
+  .accordion-btn {
+    font-size: 1.8rem;
+  }
+
+  .accordion-content-para {
+    font-size: 1.8rem;
+    line-height: 25px;
+  }
+
   .pro-slider-btn-area {
     bottom: -10px;
   }
@@ -1084,8 +1259,8 @@ ul {
   }
 
   .available-padifac-account-content .section-title {
-    line-height: 60px;
-    font-size: 4.8rem;
+    line-height: 55px;
+    font-size: 4.2rem;
   }
 
   .available-padifac-account-list-item {
@@ -1121,7 +1296,7 @@ ul {
   }
 
   .full-ser-restaurants-bnner-content .lg-para {
-    font-size: 2.2rem;
+    font-size: 2rem;
   }
 
 
@@ -1188,13 +1363,10 @@ ul {
     max-width: 400px;
     padding: 20px 20px;
   }
+
 }
 
-@media (max-width: 1024px) {
-  .pro-slider-btn-area {
-    bottom: -50px;
-  }
-
+@media (max-width: 1099px) {
   .slider-nav-layer.slick-slide.slick-current.slick-active {
     transform: scale(1);
   }
@@ -1204,6 +1376,16 @@ ul {
     height: 460px;
     left: 10px;
     top: -50px;
+  }
+
+  .pro-slider-btn-area {
+    bottom: -70px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .pro-slider-btn-area {
+    bottom: -50px;
   }
 
   .gallery-slider-layer-inner,
@@ -1219,6 +1401,46 @@ ul {
 }
 
 @media (max-width: 991px) {
+
+  .point-of-sale-main .paidfac-portable,
+  .invoicing-main .paidfac-portable,
+  .payments-main .paidfac-portable,
+  .virtual-terminal-main .paidfac-portable,
+  .tracking-reporting-main .paidfac-portable,
+  .inventory-management-main .paidfac-portable,
+  .employee-management-main .paidfac-portable {
+    padding-bottom: 50px;
+  }
+
+  .virtual-terminal-bnner-img {
+    min-width: 100%;
+    left: 0;
+  }
+
+  .invoicing-main .full-service-restaurants-banner {
+    padding: 50px 0 50px;
+  }
+
+  .services-section {
+    padding: 40px 0;
+  }
+
+  .invoicing-bnner-img {
+    min-width: 100%;
+  }
+
+  .available-padifac-account-content .section-title {
+    text-align: center;
+  }
+
+  .build-your-pos {
+    padding: 50px 0;
+  }
+
+  .process-section {
+    padding: 50px 0;
+  }
+
   .slider-single {
     text-align: center;
   }
@@ -1415,6 +1637,11 @@ ul {
 }
 
 @media (max-width: 767px) {
+
+  .accordion-item {
+    margin-bottom: 15px;
+  }
+
   .available-padifac-account-list {
     padding-left: 0px;
   }
@@ -1493,6 +1720,24 @@ ul {
 }
 
 @media (max-width: 480px) {
+  .accordion-btn {
+    font-size: 1.6rem;
+  }
+
+  .available-padifac-account {
+    padding: 40px 0;
+  }
+
+  .available-padifac-account-content .section-title {
+    line-height: 40px;
+    font-size: 3.2rem;
+  }
+
+  .accordion-content-para {
+    font-size: 1.6rem;
+    line-height: 26px;
+  }
+
   .crafted-enhance-hospitality-box {
     padding: 15px 20px;
   }

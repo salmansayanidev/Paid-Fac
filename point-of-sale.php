@@ -142,12 +142,12 @@
     <section class="process-section">
         <div class="container">
             <div class="row align-items-center mb-50px">
-                <div class="col-12 col-lg-6">
+                <div class="col-12 col-lg-6" data-aos="fade-right" data-aos-duration="1500">
                     <div class="listing-img-area">
                         <img class="img-fluid" src="./assets/images/listing-img-1.png" alt="">
                     </div>
                 </div>
-                <div class="col-12 col-lg-6">
+                <div class="col-12 col-lg-6" data-aos="fade-left" data-aos-duration="1500">
                     <div class="listing-text-area m-0 paidfac-portable-left-inner">
                         <h4 class="sec-sm-title">Enjoy a quick, hassle-free setup with our team's support</h4>
                         <p class="lg-para">Process payments anytime, anywhere using your computer, tablet, or smartphone through Virtual Terminal on your PaidFac Web Dashboard—no POS device required!</p>
@@ -158,7 +158,7 @@
                 </div>
             </div>
             <div class="row align-items-center flex-column-reverse-md">
-                <div class="col-12 col-lg-6">
+                <div class="col-12 col-lg-6" data-aos="fade-right" data-aos-duration="1500">
                     <div class="listing-text-area m-0 paidfac-portable-left-inner">
                         <h4 class="sec-sm-title">Process payments anytime, anywhere with Virtual Terminal</h4>
                         <p class="lg-para">Get personalized, concierge-level setup support from experts who know your business.</p>
@@ -167,7 +167,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-12 col-lg-6">
+                <div class="col-12 col-lg-6" data-aos="fade-left" data-aos-duration="1500">
                     <div class="listing-img-area">
                         <img class="img-fluid" src="./assets/images/listing-img-2.png" alt="">
                     </div>

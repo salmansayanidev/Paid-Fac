@@ -32,7 +32,7 @@
                             <nav class="navigation">
                                 <ul class="nav-menu-list">
                                     <li class="nav-menu-item">
-                                        <a class="nav-menu-link" href="#">
+                                        <a class="nav-menu-link" href="javascript:void(0);">
                                             <span>Restaurants</span>
                                             <i class="fa-solid fa-angle-down"></i>
                                         </a>
@@ -131,7 +131,31 @@
                                                     Payments
                                                 </a>
                                             </li>
-                                            
+                                            <li class="sub-menu-item">
+                                                <a class="nav-menu-link" href="invoicing.php">
+                                                    Invoicing
+                                                </a>
+                                            </li>
+                                            <li class="sub-menu-item">
+                                                <a class="nav-menu-link" href="virtual-terminal.php">
+                                                    Virtual Terminal
+                                                </a>
+                                            </li>
+                                            <li class="sub-menu-item">
+                                                <a class="nav-menu-link" href="tracking-reporting.php">
+                                                    Tracking Reporting
+                                                </a>
+                                            </li>
+                                            <li class="sub-menu-item">
+                                                <a class="nav-menu-link" href="inventory-management.php">
+                                                    Inventory Management
+                                                </a>
+                                            </li>
+                                            <li class="sub-menu-item">
+                                                <a class="nav-menu-link" href="employee-management.php">
+                                                    Employee Management
+                                                </a>
+                                            </li>
                                         </ul>
                                     </li>
                                     <li class="nav-menu-item">
@@ -212,7 +236,7 @@
             <ul class="mobile-nav-list">
                 <li class="mobile-nav-list-item">
                     <div class="mobile-nav-list-item-inner">
-                        <a href="#" class="nav-menu-link text-white d-block">
+                        <a href="javascript:void(0);" class="nav-menu-link text-white d-block">
                             <span>Restaurants</span>
                         </a>
                         <button class="mobile-dropdown-btn" type="button">
@@ -239,7 +263,7 @@
                 </li>
                 <li class="mobile-nav-list-item">
                     <div class="mobile-nav-list-item-inner">
-                        <a href="#" class="nav-menu-link text-white d-block">
+                        <a href="javascript:void(0);" class="nav-menu-link text-white d-block">
                             <span>Services</span>
                         </a>
                         <button class="mobile-dropdown-btn" type="button">
@@ -248,25 +272,30 @@
                     </div>
                     <ul class="mobile-sub-menu-list">
                         <li class="mobile-sub-menu-item">
-                            <a href="#" class="nav-menu-link d-block">
-                                Example One
+                            <a href="all-services-business.php" class="nav-menu-link d-block">
+                                All Services Business
                             </a>
                         </li>
                         <li class="mobile-sub-menu-item">
-                            <a href="#" class="nav-menu-link d-block">
-                                Exmaple Two
+                            <a href="personal-services.php" class="nav-menu-link d-block">
+                                Personal Services
                             </a>
                         </li>
                         <li class="mobile-sub-menu-item">
-                            <a href="#" class="nav-menu-link d-block">
-                                Exmaple Three
+                            <a href="professional-services.php" class="nav-menu-link d-block">
+                                Professional Services
+                            </a>
+                        </li>
+                        <li class="mobile-sub-menu-item">
+                            <a href="home-&-field-services.php" class="nav-menu-link d-block">
+                                Home & Field Services
                             </a>
                         </li>
                     </ul>
                 </li>
                 <li class="mobile-nav-list-item">
                     <div class="mobile-nav-list-item-inner">
-                        <a href="#" class="nav-menu-link text-white d-block">
+                        <a href="javascript:void(0);" class="nav-menu-link text-white d-block">
                             <span>Retail</span>
                         </a>
                         <button class="mobile-dropdown-btn" type="button">
@@ -275,25 +304,30 @@
                     </div>
                     <ul class="mobile-sub-menu-list">
                         <li class="mobile-sub-menu-item">
-                            <a href="#" class="nav-menu-link d-block">
-                                Example One
+                            <a href="all-retail-stores.php" class="nav-menu-link d-block">
+                                All Reatail Stores
                             </a>
                         </li>
                         <li class="mobile-sub-menu-item">
-                            <a href="#" class="nav-menu-link d-block">
-                                Exmaple Two
+                            <a href="boutiques.php" class="nav-menu-link d-block">
+                                Boutiques
                             </a>
                         </li>
                         <li class="mobile-sub-menu-item">
-                            <a href="#" class="nav-menu-link d-block">
-                                Exmaple Three
+                            <a href="jewelry-stores.php" class="nav-menu-link d-block">
+                                Jewelry Stores
+                            </a>
+                        </li>
+                        <li class="mobile-sub-menu-item">
+                            <a href="book-stores.php" class="nav-menu-link d-block">
+                                Book Stores
                             </a>
                         </li>
                     </ul>
                 </li>
                 <li class="mobile-nav-list-item">
                     <div class="mobile-nav-list-item-inner">
-                        <a href="products.php" class="nav-menu-link text-white d-block">
+                        <a href="javascript:void(0);" class="nav-menu-link text-white d-block">
                             <span>Products</span>
                         </a>
                         <button class="mobile-dropdown-btn" type="button">
@@ -302,32 +336,57 @@
                     </div>
                     <ul class="mobile-sub-menu-list">
                         <li class="mobile-sub-menu-item">
-                            <a href="#" class="nav-menu-link d-block">
-                                Example One
+                            <a href="hardware.php" class="nav-menu-link d-block">
+                                Hardware
                             </a>
                         </li>
                         <li class="mobile-sub-menu-item">
-                            <a href="#" class="nav-menu-link d-block">
-                                Exmaple Two
+                            <a href="point-of-sale.php" class="nav-menu-link d-block">
+                                Point of Sale
                             </a>
                         </li>
                         <li class="mobile-sub-menu-item">
-                            <a href="#" class="nav-menu-link d-block">
-                                Exmaple Three
+                            <a href="payments.php" class="nav-menu-link d-block">
+                                Payments
+                            </a>
+                        </li>
+                        <li class="mobile-sub-menu-item">
+                            <a href="invoicing.php" class="nav-menu-link d-block">
+                                Invoicing
+                            </a>
+                        </li>
+                        <li class="mobile-sub-menu-item">
+                            <a href="virtual-terminal.php" class="nav-menu-link d-block">
+                                Virtual Terminal
+                            </a>
+                        </li>
+                        <li class="mobile-sub-menu-item">
+                            <a href="tracking-reporting.php" class="nav-menu-link d-block">
+                                Tracking Reporting
+                            </a>
+                        </li>
+                        <li class="mobile-sub-menu-item">
+                            <a href="inventory-management.php" class="nav-menu-link d-block">
+                                Inventory Management
+                            </a>
+                        </li>
+                        <li class="mobile-sub-menu-item">
+                            <a href="employee-management.php" class="nav-menu-link d-block">
+                                Employee Management
                             </a>
                         </li>
                     </ul>
                 </li>
                 <li class="mobile-nav-list-item">
                     <div class="mobile-nav-list-item-inner">
-                        <a href="#" class="nav-menu-link text-white d-block">
+                        <a href="javascript:void(0);" class="nav-menu-link text-white d-block">
                             <span>Resources</span>
                         </a>
-                        <button class="mobile-dropdown-btn" type="button">
+                        <!-- <button class="mobile-dropdown-btn" type="button">
                             <i class="fa-solid fa-angle-down angle-icon"></i>
-                        </button>
+                        </button> -->
                     </div>
-                    <ul class="mobile-sub-menu-list">
+                    <!-- <ul class="mobile-sub-menu-list">
                         <li class="mobile-sub-menu-item">
                             <a href="#" class="nav-menu-link d-block">
                                 Example One
@@ -343,7 +402,7 @@
                                 Exmaple Three
                             </a>
                         </li>
-                    </ul>
+                    </ul> -->
                 </li>
                 <li class="mobile-nav-list-item">
                     <a href="pricing.php" class="nav-menu-link text-white d-block">
