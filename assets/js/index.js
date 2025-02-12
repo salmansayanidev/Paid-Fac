@@ -48,72 +48,61 @@
 //     });
 // });
 
-const posTabs = document.querySelectorAll("[data-view]");
 
-posTabs.forEach((tab) => {
-    tab.addEventListener("click", () => {
-        posTabs.forEach((tab) => {
-            tab.classList.remove("active");
-        });
-        $("[data-content]").removeClass("active");
-        $(`[data-content="${tab.dataset.view}"]`).addClass("active");
-        tab.classList.add("active");
-    });
-});
 
-$(".powerful-pos-accordion-bottom").hide(); 
+// $(".powerful-pos-accordion-bottom").hide(); 
 
-document.addEventListener("DOMContentLoaded", function () {
-    const sections = document.querySelectorAll(".powerful-pos-img");
-    const buttons = document.querySelectorAll(".pow-pos-accordion-btn");
+// document.addEventListener("DOMContentLoaded", function () {
+//     const sections = document.querySelectorAll(".powerful-pos-img");
+//     const buttons = document.querySelectorAll(".pow-pos-accordion-btn");
 
-    let currentIndex = 0;
+//     let currentIndex = 0;
 
-    const observerOptions = {
-        root: null,
-        rootMargin: "100px 0px 0px 0px",
-        threshold: 0.9,
-    };
+//     const observerOptions = {
+//         root: null,
+//         rootMargin: "100px 0px 0px 0px",
+//         threshold: 0.9,
+//     };
 
-    function updateActiveButton(index) {
-        buttons.forEach((btn, idx) => {
-            const accordionBottom = btn.closest(".powerful-pos-accordion-area").querySelector(".powerful-pos-accordion-bottom");
-            if (idx === index) {
-                btn.classList.add("active");
-                $(accordionBottom).stop().slideDown(); 
-            } else {
-                btn.classList.remove("active");
-                $(accordionBottom).stop().slideUp(); 
-            }
-        });
+//     function updateActiveButton(index) {
+//         buttons.forEach((btn, idx) => {
+//             const accordionBottom = btn.closest(".powerful-pos-accordion-area").querySelector(".powerful-pos-accordion-bottom");
+//             if (idx === index) {
+//                 btn.classList.add("active");
+//                 $(accordionBottom).stop().slideDown(); 
+//             } else {
+//                 btn.classList.remove("active");
+//                 $(accordionBottom).stop().slideUp(); 
+//             }
+//         });
 
-        currentIndex = index;
-    }
+//         currentIndex = index;
+//     }
 
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach((entry) => {
-            if (entry.isIntersecting) {
-                const index = Array.from(sections).indexOf(entry.target);
-                if (index !== -1) {
-                    updateActiveButton(index);
-                }
-            }
-        });
-    }, observerOptions);
+//     const observer = new IntersectionObserver((entries) => {
+//         entries.forEach((entry) => {
+//             if (entry.isIntersecting) {
+//                 const index = Array.from(sections).indexOf(entry.target);
+//                 if (index !== -1) {
+//                     updateActiveButton(index);
+//                 }
+//             }
+//         });
+//     }, observerOptions);
 
-    sections.forEach((section) => observer.observe(section));
+//     sections.forEach((section) => observer.observe(section));
 
-    buttons.forEach((button, index) => {
-        button.addEventListener("click", (event) => {
-            event.preventDefault();
-            updateActiveButton(index);
-            sections[index].scrollIntoView({
-                behavior: "smooth",
-                block: "start",
-            });
-        });
-    });
-});
+//     buttons.forEach((button, index) => {
+//         button.addEventListener("click", (event) => {
+//             event.preventDefault();
+//             updateActiveButton(index);
+//             sections[index].scrollIntoView({
+//                 behavior: "smooth",
+//                 block: "start",
+//             });
+//         });
+//     });
+// });
 
 
 

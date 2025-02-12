@@ -93,33 +93,31 @@
                                 <div class="pow-pos-tabs-main">
                                     <ul class="powerful-pos-tabing-list">
                                         <li class="powerful-pos-tabing-item">
-                                            <button class="powerful-pos-tabing-btn active" data-index="1" type="button"
-                                                data-view="Restaurants">
+                                            <button class="powerful-pos-tabing-btn active" type="button" data-view="Restaurants">
                                                 Restaurants
                                             </button>
                                         </li>
                                         <li class="powerful-pos-tabing-item">
-                                            <button class="powerful-pos-tabing-btn" data-index="2" type="button" data-view="Retail">
+                                            <button class="powerful-pos-tabing-btn" type="button" data-view="Retail">
                                                 Retail
                                             </button>
                                         </li>
                                         <li class="powerful-pos-tabing-item">
-                                            <button class="powerful-pos-tabing-btn" data-index="3" type="button"
-                                                data-view="Service_Businesses">
+                                            <button class="powerful-pos-tabing-btn" type="button" data-view="Service_Businesses">
                                                 Service Businesses
                                             </button>
                                         </li>
                                     </ul>
 
-                                    <div class="powerful-pos-tabing-content active" data-content="Restaurants">
-                                        <div class="powerful-pos-accordion-area">
-                                            <div class="powerful-pos-accordion-top">
-                                                <a href="#Restaurants1" class="pow-pos-accordion-btn active" type="button">
+                                    <div class="powerful-pos-tabing-content accordion active" data-content="Restaurants">
+                                        <div class="powerful-pos-accordion-area accordion-item active" data-index="0">
+                                            <div class="powerful-pos-accordion-top accordion-header">
+                                                <div class="pow-pos-accordion-btn" type="button">
                                                     <span>Payments</span>
                                                     <i class="fa-solid fa-plus accor-icon"></i>
-                                                </a>
+                                                </div>
                                             </div>
-                                            <div class="powerful-pos-accordion-bottom">
+                                            <div class="powerful-pos-accordion-bottom ">
                                                 <h4 class="sm-accor-title mb-2">Countless payment options</h4>
                                                 <p class="para">Whether it's fast counter transactions or complete
                                                     tableside service, Clover enables you to accept payments anywhere.
@@ -127,14 +125,14 @@
                                             </div>
                                         </div>
 
-                                        <div class="powerful-pos-accordion-area">
-                                            <div class="powerful-pos-accordion-top">
-                                                <a href="#Restaurants2" class="pow-pos-accordion-btn" type="button">
+                                        <div class="powerful-pos-accordion-area accordion-item" data-index="1">
+                                            <div class="powerful-pos-accordion-top accordion-header">
+                                                <div class="pow-pos-accordion-btn" type="button">
                                                     <span>Software</span>
                                                     <i class="fa-solid fa-plus accor-icon"></i>
-                                                </a>
+                                                </div>
                                             </div>
-                                            <div class="powerful-pos-accordion-bottom">
+                                            <div class="powerful-pos-accordion-bottom ">
                                                 <h4 class="sm-accor-title mb-2">Countless payment options</h4>
                                                 <p class="para">Whether it's fast counter transactions or complete
                                                     tableside service, Clover enables you to accept payments anywhere.
@@ -142,14 +140,14 @@
                                             </div>
                                         </div>
 
-                                        <div class="powerful-pos-accordion-area">
-                                            <div class="powerful-pos-accordion-top">
-                                                <a href="#Restaurants3" class="pow-pos-accordion-btn" type="button">
+                                        <div class="powerful-pos-accordion-area accordion-item" data-index="2">
+                                            <div class="powerful-pos-accordion-top accordion-header">
+                                                <div class="pow-pos-accordion-btn" type="button">
                                                     <span>Hardware</span>
                                                     <i class="fa-solid fa-plus accor-icon"></i>
-                                                </a>
+                                                </div>
                                             </div>
-                                            <div class="powerful-pos-accordion-bottom">
+                                            <div class="powerful-pos-accordion-bottom ">
                                                 <h4 class="sm-accor-title mb-2">Countless payment options</h4>
                                                 <p class="para">Whether it's fast counter transactions or complete
                                                     tableside service, Clover enables you to accept payments anywhere.
@@ -157,14 +155,146 @@
                                             </div>
                                         </div>
 
-                                        <div class="powerful-pos-accordion-area">
-                                            <div class="powerful-pos-accordion-top">
-                                                <a href="#Restaurants4" class="pow-pos-accordion-btn" type="button">
+                                        <div class="powerful-pos-accordion-area accordion-item" data-index="3">
+                                            <div class="powerful-pos-accordion-top accordion-header">
+                                                <div class="pow-pos-accordion-btn" type="button">
                                                     <span>Apps</span>
                                                     <i class="fa-solid fa-plus accor-icon"></i>
-                                                </a>
+                                                </div>
                                             </div>
-                                            <div class="powerful-pos-accordion-bottom">
+                                            <div class="powerful-pos-accordion-bottom ">
+                                                <h4 class="sm-accor-title mb-2">Countless payment options</h4>
+                                                <p class="para">Whether it's fast counter transactions or complete
+                                                    tableside service, Clover enables you to accept payments anywhere.
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                        <a class="get-started-cta justify-content-start width-fit-content" href="#">
+                                            <span>PaidFac for restaurants</span>
+                                            <i class="fa-solid fa-arrow-right"></i>
+                                        </a>
+                                    </div>
+                                    <div class="powerful-pos-tabing-content accordion " data-content="Retail">
+                                        <div class="powerful-pos-accordion-area accordion-item active" data-index="4">
+                                            <div class="powerful-pos-accordion-top accordion-header">
+                                                <div class="pow-pos-accordion-btn" type="button">
+                                                    <span>Payments</span>
+                                                    <i class="fa-solid fa-plus accor-icon"></i>
+                                                </div>
+                                            </div>
+                                            <div class="powerful-pos-accordion-bottom ">
+                                                <h4 class="sm-accor-title mb-2">Countless payment options</h4>
+                                                <p class="para">Whether it's fast counter transactions or complete
+                                                    tableside service, Clover enables you to accept payments anywhere.
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                        <div class="powerful-pos-accordion-area accordion-item" data-index="5">
+                                            <div class="powerful-pos-accordion-top accordion-header">
+                                                <div class="pow-pos-accordion-btn" type="button">
+                                                    <span>Software</span>
+                                                    <i class="fa-solid fa-plus accor-icon"></i>
+                                                </div>
+                                            </div>
+                                            <div class="powerful-pos-accordion-bottom ">
+                                                <h4 class="sm-accor-title mb-2">Countless payment options</h4>
+                                                <p class="para">Whether it's fast counter transactions or complete
+                                                    tableside service, Clover enables you to accept payments anywhere.
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                        <div class="powerful-pos-accordion-area accordion-item" data-index="6">
+                                            <div class="powerful-pos-accordion-top accordion-header">
+                                                <div class="pow-pos-accordion-btn" type="button">
+                                                    <span>Hardware</span>
+                                                    <i class="fa-solid fa-plus accor-icon"></i>
+                                                </div>
+                                            </div>
+                                            <div class="powerful-pos-accordion-bottom ">
+                                                <h4 class="sm-accor-title mb-2">Countless payment options</h4>
+                                                <p class="para">Whether it's fast counter transactions or complete
+                                                    tableside service, Clover enables you to accept payments anywhere.
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                        <div class="powerful-pos-accordion-area accordion-item" data-index="7">
+                                            <div class="powerful-pos-accordion-top accordion-header">
+                                                <div class="pow-pos-accordion-btn" type="button">
+                                                    <span>Apps</span>
+                                                    <i class="fa-solid fa-plus accor-icon"></i>
+                                                </div>
+                                            </div>
+                                            <div class="powerful-pos-accordion-bottom ">
+                                                <h4 class="sm-accor-title mb-2">Countless payment options</h4>
+                                                <p class="para">Whether it's fast counter transactions or complete
+                                                    tableside service, Clover enables you to accept payments anywhere.
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                        <a class="get-started-cta justify-content-start width-fit-content" href="#">
+                                            <span>PaidFac for restaurants</span>
+                                            <i class="fa-solid fa-arrow-right"></i>
+                                        </a>
+                                    </div>
+                                    <div class="powerful-pos-tabing-content accordion " data-content="Service_Businesses">
+                                        <div class="powerful-pos-accordion-area accordion-item active" data-index="8">
+                                            <div class="powerful-pos-accordion-top accordion-header">
+                                                <div class="pow-pos-accordion-btn" type="button">
+                                                    <span>Payments</span>
+                                                    <i class="fa-solid fa-plus accor-icon"></i>
+                                                </div>
+                                            </div>
+                                            <div class="powerful-pos-accordion-bottom ">
+                                                <h4 class="sm-accor-title mb-2">Countless payment options</h4>
+                                                <p class="para">Whether it's fast counter transactions or complete
+                                                    tableside service, Clover enables you to accept payments anywhere.
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                        <div class="powerful-pos-accordion-area accordion-item" data-index="9">
+                                            <div class="powerful-pos-accordion-top accordion-header">
+                                                <div class="pow-pos-accordion-btn" type="button">
+                                                    <span>Software</span>
+                                                    <i class="fa-solid fa-plus accor-icon"></i>
+                                                </div>
+                                            </div>
+                                            <div class="powerful-pos-accordion-bottom ">
+                                                <h4 class="sm-accor-title mb-2">Countless payment options</h4>
+                                                <p class="para">Whether it's fast counter transactions or complete
+                                                    tableside service, Clover enables you to accept payments anywhere.
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                        <div class="powerful-pos-accordion-area accordion-item" data-index="10">
+                                            <div class="powerful-pos-accordion-top accordion-header">
+                                                <div class="pow-pos-accordion-btn" type="button">
+                                                    <span>Hardware</span>
+                                                    <i class="fa-solid fa-plus accor-icon"></i>
+                                                </div>
+                                            </div>
+                                            <div class="powerful-pos-accordion-bottom ">
+                                                <h4 class="sm-accor-title mb-2">Countless payment options</h4>
+                                                <p class="para">Whether it's fast counter transactions or complete
+                                                    tableside service, Clover enables you to accept payments anywhere.
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                        <div class="powerful-pos-accordion-area accordion-item" data-index="11">
+                                            <div class="powerful-pos-accordion-top accordion-header">
+                                                <div class="pow-pos-accordion-btn" type="button">
+                                                    <span>Apps</span>
+                                                    <i class="fa-solid fa-plus accor-icon"></i>
+                                                </div>
+                                            </div>
+                                            <div class="powerful-pos-accordion-bottom ">
                                                 <h4 class="sm-accor-title mb-2">Countless payment options</h4>
                                                 <p class="para">Whether it's fast counter transactions or complete
                                                     tableside service, Clover enables you to accept payments anywhere.
@@ -180,18 +310,52 @@
                                 </div>
                             </div>
                             <div class="col-12 col-lg-8 col-xl-8 col-xxl-7" data-aos="fade-left" data-aos-duration="1500">
-                                <div class="powerful-pos-img-area active" data-content="Restaurants">
-                                    <div id="Restaurants1" class="powerful-pos-img">
-                                        <img class="img-fluid" src="./assets/images/powerful-pos-img.png" alt="">
+                                <div class="swiper-container1 swipper-container-area active" data-content="Restaurants">
+                                    <div class="powerful-pos-img-area swiper-wrapper">
+                                        <div class="powerful-pos-img swiper-slide">
+                                            <img class="img-fluid" src="./assets/images/powerful-pos-img.png" alt="Slide 1">
+                                        </div>
+                                        <div class="powerful-pos-img swiper-slide">
+                                            <img class="img-fluid" src="./assets/images/powerful-pos-img-2.png" alt="Slide 2">
+                                        </div>
+                                        <div class="powerful-pos-img swiper-slide">
+                                            <img class="img-fluid" src="./assets/images/powerful-pos-img-3.png" alt="Slide 3">
+                                        </div>
+                                        <div class="powerful-pos-img swiper-slide">
+                                            <img class="img-fluid" src="./assets/images/powerful-pos-img-4.png" alt="Slide 4">
+                                        </div>
                                     </div>
-                                    <div id="Restaurants2" class="powerful-pos-img">
-                                        <img class="img-fluid" src="./assets/images/powerful-pos-img-2.png" alt="">
+                                </div>
+                                <div class="swiper-container2 swipper-container-area" data-content="Retail">
+                                    <div class="powerful-pos-img-area swiper-wrapper">
+                                        <div class="powerful-pos-img swiper-slide">
+                                            <img class="img-fluid" src="./assets/images/powerful-pos-img.png" alt="Slide 1">
+                                        </div>
+                                        <div class="powerful-pos-img swiper-slide">
+                                            <img class="img-fluid" src="./assets/images/powerful-pos-img-2.png" alt="Slide 2">
+                                        </div>
+                                        <div class="powerful-pos-img swiper-slide">
+                                            <img class="img-fluid" src="./assets/images/powerful-pos-img-3.png" alt="Slide 3">
+                                        </div>
+                                        <div class="powerful-pos-img swiper-slide">
+                                            <img class="img-fluid" src="./assets/images/powerful-pos-img-4.png" alt="Slide 4">
+                                        </div>
                                     </div>
-                                    <div id="Restaurants3" class="powerful-pos-img">
-                                        <img class="img-fluid" src="./assets/images/powerful-pos-img-3.png" alt="">
-                                    </div>
-                                    <div id="Restaurants4" class="powerful-pos-img">
-                                        <img class="img-fluid" src="./assets/images/powerful-pos-img-4.png" alt="">
+                                </div>
+                                <div class="swiper-container3 swipper-container-area" data-content="Service_Businesses">
+                                    <div class="powerful-pos-img-area swiper-wrapper">
+                                        <div class="powerful-pos-img swiper-slide">
+                                            <img class="img-fluid" src="./assets/images/powerful-pos-img.png" alt="Slide 1">
+                                        </div>
+                                        <div class="powerful-pos-img swiper-slide">
+                                            <img class="img-fluid" src="./assets/images/powerful-pos-img-2.png" alt="Slide 2">
+                                        </div>
+                                        <div class="powerful-pos-img swiper-slide">
+                                            <img class="img-fluid" src="./assets/images/powerful-pos-img-3.png" alt="Slide 3">
+                                        </div>
+                                        <div class="powerful-pos-img swiper-slide">
+                                            <img class="img-fluid" src="./assets/images/powerful-pos-img-4.png" alt="Slide 4">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -324,7 +488,111 @@
 <?php include "./includes/footer.php" ?>
 <script src="./assets/js/index.js"></script>
 
-
 <script>
+    // Swiper initialization
+const mySwiper1 = new Swiper('.swiper-container1', {
+    effect: 'cube',
+    grabCursor: true,
+    speed: 1000,
+    cubeEffect: {
+        shadow: true,
+        slideShadows: true,
+        shadowOffset: 20,
+        shadowScale: 0.94,
+    },
+    on: {
+        slideChange: function() {
+            updateAccordion(mySwiper1.activeIndex);
+        }
+    }
+});
+const mySwiper2 = new Swiper('.swiper-container2', {
+    effect: 'cube',
+    grabCursor: true,
+    speed: 1000,
+    cubeEffect: {
+        shadow: true,
+        slideShadows: true,
+        shadowOffset: 20,
+        shadowScale: 0.94,
+    },
+    on: {
+        slideChange: function() {
+            updateAccordion(mySwiper2.activeIndex);
+        }
+    }
+});
+const mySwiper3 = new Swiper('.swiper-container3', {
+    effect: 'cube',
+    grabCursor: true,
+    speed: 1000,
+    cubeEffect: {
+        shadow: true,
+        slideShadows: true,
+        shadowOffset: 20,
+        shadowScale: 0.94,
+    },
+    on: {
+        slideChange: function() {
+            updateAccordion(mySwiper3.activeIndex);
+        }
+    }
+});
+
+// Active Swiper Reference (Initially mySwiper1)
+let activeSwiper = mySwiper1;
+
+// Accordion click functionality
+document.querySelectorAll('.accordion-item').forEach(item => {
+    item.addEventListener('click', function() {
+        let index = this.getAttribute('data-index');
+        
+        // Active Swiper ka Slide Change karo
+        if (activeSwiper) {
+            activeSwiper.slideTo(index);
+        }
+        
+        updateAccordion(index);
+    });
+});
+
+// Function to update active accordion
+function updateAccordion(index) {
+    document.querySelectorAll('.accordion-item').forEach((item, i) => {
+        if (i == index) {
+            item.classList.add('active');
+        } else {
+            item.classList.remove('active');
+        }
+    });
+}
+
+// Tabs Functionality
+const posTabs = document.querySelectorAll("[data-view]");
+
+posTabs.forEach((tab) => {
+    tab.addEventListener("click", () => {
+        posTabs.forEach((tab) => tab.classList.remove("active"));
+        document.querySelectorAll("[data-content]").forEach(content => content.classList.remove("active"));
+        
+        let activeContent = document.querySelector(`[data-content="${tab.dataset.view}"]`);
+        activeContent.classList.add("active");
+        tab.classList.add("active");
+
+        // Swiper Container Activate and Change Active Swiper
+        if (tab.dataset.view === "1") {
+            activeSwiper = mySwiper1;
+        } else if (tab.dataset.view === "2") {
+            activeSwiper = mySwiper2;
+        } else if (tab.dataset.view === "3") {
+            activeSwiper = mySwiper3;
+        }
+        
+        // Swiper Update
+        setTimeout(() => {
+            activeSwiper.update();
+        }, 300);
+    });
+});
 
 </script>
