@@ -44,6 +44,7 @@
   --poppins-font-family: "Poppins";
   --theme-color-blue: #3d52a0;
   --text-color: #343434;
+  --hover-color: #7091E6;
 }
 
 html {
@@ -67,12 +68,12 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-  background: var(--theme-color-blue);
+  background: var(--hover-color);
   border-radius: 10px;
 }
 
 body::-webkit-scrollbar-thumb:hover {
-  background: var(--theme-color-blue);
+  background: var(--hover-color);
 }
 
 @media (min-width: 1601px) {
@@ -148,7 +149,7 @@ ul {
 }
 
 .primary-btn:hover {
-  background-color: #EC5569 !important;
+  background-color: var(--hover-color) !important;
   color: white !important;
   border-color: transparent !important;
 }
@@ -372,7 +373,7 @@ ul {
 
 .get-started-cta:hover,
 .show-more-btn:hover {
-  color: #EC5569;
+  color: var(--hover-color);
 }
 
 .gallery-slider-layer-inner.crafted-enhance-hospitality-box .sec-sm-title {

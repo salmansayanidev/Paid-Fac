@@ -175,8 +175,8 @@
                                             <i class="fa-solid fa-arrow-right"></i>
                                         </a>
                                     </div>
-                                    <div class="powerful-pos-tabing-content accordion " data-content="Retail">
-                                        <div class="powerful-pos-accordion-area accordion-item active" data-index="4">
+                                    <div class="powerful-pos-tabing-content accordion" data-content="Retail">
+                                        <div class="powerful-pos-accordion-area accordion-item active" data-index="0">
                                             <div class="powerful-pos-accordion-top accordion-header">
                                                 <div class="pow-pos-accordion-btn" type="button">
                                                     <span>Payments</span>
@@ -191,7 +191,7 @@
                                             </div>
                                         </div>
 
-                                        <div class="powerful-pos-accordion-area accordion-item" data-index="5">
+                                        <div class="powerful-pos-accordion-area accordion-item" data-index="1">
                                             <div class="powerful-pos-accordion-top accordion-header">
                                                 <div class="pow-pos-accordion-btn" type="button">
                                                     <span>Software</span>
@@ -206,7 +206,7 @@
                                             </div>
                                         </div>
 
-                                        <div class="powerful-pos-accordion-area accordion-item" data-index="6">
+                                        <div class="powerful-pos-accordion-area accordion-item" data-index="2">
                                             <div class="powerful-pos-accordion-top accordion-header">
                                                 <div class="pow-pos-accordion-btn" type="button">
                                                     <span>Hardware</span>
@@ -221,7 +221,7 @@
                                             </div>
                                         </div>
 
-                                        <div class="powerful-pos-accordion-area accordion-item" data-index="7">
+                                        <div class="powerful-pos-accordion-area accordion-item" data-index="3">
                                             <div class="powerful-pos-accordion-top accordion-header">
                                                 <div class="pow-pos-accordion-btn" type="button">
                                                     <span>Apps</span>
@@ -241,8 +241,8 @@
                                             <i class="fa-solid fa-arrow-right"></i>
                                         </a>
                                     </div>
-                                    <div class="powerful-pos-tabing-content accordion " data-content="Service_Businesses">
-                                        <div class="powerful-pos-accordion-area accordion-item active" data-index="8">
+                                    <div class="powerful-pos-tabing-content accordion" data-content="Service_Businesses">
+                                        <div class="powerful-pos-accordion-area accordion-item active" data-index="0">
                                             <div class="powerful-pos-accordion-top accordion-header">
                                                 <div class="pow-pos-accordion-btn" type="button">
                                                     <span>Payments</span>
@@ -257,7 +257,7 @@
                                             </div>
                                         </div>
 
-                                        <div class="powerful-pos-accordion-area accordion-item" data-index="9">
+                                        <div class="powerful-pos-accordion-area accordion-item" data-index="1">
                                             <div class="powerful-pos-accordion-top accordion-header">
                                                 <div class="pow-pos-accordion-btn" type="button">
                                                     <span>Software</span>
@@ -272,7 +272,7 @@
                                             </div>
                                         </div>
 
-                                        <div class="powerful-pos-accordion-area accordion-item" data-index="10">
+                                        <div class="powerful-pos-accordion-area accordion-item" data-index="2">
                                             <div class="powerful-pos-accordion-top accordion-header">
                                                 <div class="pow-pos-accordion-btn" type="button">
                                                     <span>Hardware</span>
@@ -287,7 +287,7 @@
                                             </div>
                                         </div>
 
-                                        <div class="powerful-pos-accordion-area accordion-item" data-index="11">
+                                        <div class="powerful-pos-accordion-area accordion-item" data-index="3">
                                             <div class="powerful-pos-accordion-top accordion-header">
                                                 <div class="pow-pos-accordion-btn" type="button">
                                                     <span>Apps</span>
@@ -487,112 +487,3 @@
 
 <?php include "./includes/footer.php" ?>
 <script src="./assets/js/index.js"></script>
-
-<script>
-    // Swiper initialization
-const mySwiper1 = new Swiper('.swiper-container1', {
-    effect: 'cube',
-    grabCursor: true,
-    speed: 1000,
-    cubeEffect: {
-        shadow: true,
-        slideShadows: true,
-        shadowOffset: 20,
-        shadowScale: 0.94,
-    },
-    on: {
-        slideChange: function() {
-            updateAccordion(mySwiper1.activeIndex);
-        }
-    }
-});
-const mySwiper2 = new Swiper('.swiper-container2', {
-    effect: 'cube',
-    grabCursor: true,
-    speed: 1000,
-    cubeEffect: {
-        shadow: true,
-        slideShadows: true,
-        shadowOffset: 20,
-        shadowScale: 0.94,
-    },
-    on: {
-        slideChange: function() {
-            updateAccordion(mySwiper2.activeIndex);
-        }
-    }
-});
-const mySwiper3 = new Swiper('.swiper-container3', {
-    effect: 'cube',
-    grabCursor: true,
-    speed: 1000,
-    cubeEffect: {
-        shadow: true,
-        slideShadows: true,
-        shadowOffset: 20,
-        shadowScale: 0.94,
-    },
-    on: {
-        slideChange: function() {
-            updateAccordion(mySwiper3.activeIndex);
-        }
-    }
-});
-
-// Active Swiper Reference (Initially mySwiper1)
-let activeSwiper = mySwiper1;
-
-// Accordion click functionality
-document.querySelectorAll('.accordion-item').forEach(item => {
-    item.addEventListener('click', function() {
-        let index = this.getAttribute('data-index');
-        
-        // Active Swiper ka Slide Change karo
-        if (activeSwiper) {
-            activeSwiper.slideTo(index);
-        }
-        
-        updateAccordion(index);
-    });
-});
-
-// Function to update active accordion
-function updateAccordion(index) {
-    document.querySelectorAll('.accordion-item').forEach((item, i) => {
-        if (i == index) {
-            item.classList.add('active');
-        } else {
-            item.classList.remove('active');
-        }
-    });
-}
-
-// Tabs Functionality
-const posTabs = document.querySelectorAll("[data-view]");
-
-posTabs.forEach((tab) => {
-    tab.addEventListener("click", () => {
-        posTabs.forEach((tab) => tab.classList.remove("active"));
-        document.querySelectorAll("[data-content]").forEach(content => content.classList.remove("active"));
-        
-        let activeContent = document.querySelector(`[data-content="${tab.dataset.view}"]`);
-        activeContent.classList.add("active");
-        tab.classList.add("active");
-
-        // Swiper Container Activate and Change Active Swiper
-        if (tab.dataset.view === "1") {
-            activeSwiper = mySwiper1;
-        } else if (tab.dataset.view === "2") {
-            activeSwiper = mySwiper2;
-        } else if (tab.dataset.view === "3") {
-            activeSwiper = mySwiper3;
-        }
-        
-        // Swiper Update
-        setTimeout(() => {
-            activeSwiper.update();
-        }, 300);
-    });
-});
-
-</script>

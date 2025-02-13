@@ -16,9 +16,9 @@
 }
 
 .pricing-tabs-btn:hover {
-    background-color: var(--theme-color-blue);
+    background-color: var(--hover-color) !important;
     color: white;
-    border-color: var(--theme-color-blue);
+    border-color: var(--hover-color) !important;
 }
 
 .pricing-tabs-list {

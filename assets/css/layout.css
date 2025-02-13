@@ -45,7 +45,7 @@ header.header.fixed {
 }
 
 .nav-menu-link:hover {
-  color: #EC5569 ;
+  color: var(--hover-color);
 }
 
 .nav-menu-list {
@@ -131,6 +131,11 @@ header.header.fixed {
   background-color: transparent;
   font-size: 2rem;
   color: #EC5569;
+  transition: all 0.2s ease;
+}
+.top-bottom-btn:hover {
+  color: var(--hover-color);
+  border-color: var(--hover-color);
 }
 
 .top-bottom-btn-area {
@@ -156,6 +161,10 @@ header.header.fixed {
   font-size: 1.4rem;
   line-height: 21px;
   color: var(--text-color);
+  transition: all 0.5s ease-in-out; 
+}
+.footer-link:hover {
+  color: var(--hover-color);
 }
 
 .footer-nav-list-item {
@@ -202,7 +211,7 @@ header.header.fixed {
 }
 
 .social-link:hover {
-  color: var(--theme-color-blue);
+  color: var(--hover-color);
 }
 
 .hamburger-btn {
